@@ -15,5 +15,9 @@ export const scenes: SceneDef[] = [
   {id: 'membership-review', title: 'Approve membership', voice: '10.2', seconds: 11, recording: 'demo-07-membership-approval'},
   {id: 'membership-result', title: 'Membership approved', voice: '10.3', seconds: 17, recording: 'demo-08-membership-result'},
   {id: 'membership-record', title: 'One membership record', voice: '10.4', seconds: 32},
+  {id: 'features-resource', title: 'Create and publish a resource', voice: '12.1', seconds: 37, recording: 'create-resource'},
+  {id: 'features-analytics', title: 'Monitor community usage', voice: '12.2', seconds: 19, recording: 'analytics'},
+  {id: 'features-disputes', title: 'Report reservation issues', voice: '12.3', seconds: 21, recording: 'disputes'},
+  {id: 'features-notifications', title: 'Realtime updates across the platform', voice: '12.4', seconds: 23, recording: 'notifications'},
   {id: 'close', title: 'ResourceHive', voice: '09-close', seconds: 36, recording: 'demo-05-admin-montage'},
 ];

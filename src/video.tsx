@@ -7,12 +7,18 @@ import captionData from './data/captions.json';
 import './fonts';
 import {siNextdotjs,siVercel,siPostgresql,siApachekafka,siGithubactions,siDocker} from 'simple-icons';
 import {MembershipFootage, MembershipRecord} from './membership';
+import {FeatureShowcase} from './features';
 
 const P='#f3efe7', A='#faf8f4', I='#1c1d1d', C='#c96f48', O='#e6a820', S='#d9ddd0', M='#aaa79e';
 const measured=timing as Record<string,number>;
 type Cue={text:string;startMs?:number;endMs?:number;start?:number;end?:number};
 const captions=captionData as Record<string,Cue[]>;
-export const sceneFrames=scenes.map(s=>Math.ceil(measured[`audio/voice/${s.voice}.mp3`]*FPS)+(s.id==='close'?120:60));
+export const sceneFrames=scenes.map(s=>{
+ const voiceSeconds=measured[`audio/voice/${s.voice}.mp3`]??s.seconds;
+ // Feature recordings play in full at their original speed, alongside their own narration.
+ const seconds=s.id.startsWith('features-')?Math.max(voiceSeconds,measured[`recordings/${s.recording}.mp4`]??s.seconds):voiceSeconds;
+ return Math.ceil(seconds*FPS)+(s.id==='close'?120:60);
+});
 export const starts=sceneFrames.map((_,i)=>sceneFrames.slice(0,i).reduce((a,b)=>a+b-24,0));
 export const totalFrames=starts.at(-1)!+sceneFrames.at(-1)!;
 const clamp={extrapolateLeft:'clamp',extrapolateRight:'clamp'} as const;
@@ -32,6 +38,12 @@ const CaptionLayer:React.FC<{voice:string}>=({voice})=>{
  if(!cue)return null;
  const words=cue.text.split(' ');const lines:string[]=[];let line='';
  for(const word of words){if(line.length+word.length>43){lines.push(line);line='';}line+=(line?' ':'')+word;}if(line)lines.push(line);
+ // Balance only the new feature captions so a final word does not sit alone on line two.
+ if(voice.startsWith('12.')&&lines.length===2){
+  const options=words.slice(1).map((_,i)=>[words.slice(0,i+1).join(' '),words.slice(i+1).join(' ')]).filter(pair=>pair.every(s=>s.length<=43));
+  options.sort((a,b)=>Math.abs(a[0].length-a[1].length)-Math.abs(b[0].length-b[1].length));
+  if(options[0])lines.splice(0,lines.length,...options[0]);
+ }
  return <div style={{position:'absolute',zIndex:30,bottom:42,width:'100%',textAlign:'center',fontFamily:'Geist',fontWeight:450,fontSize:36,lineHeight:1.35,color:'#fff',textShadow:'0 2px 2px #000'}}>{lines.map((s,i)=><div key={i}><span style={{background:'rgba(0,0,0,.82)',padding:'2px 10px',boxDecorationBreak:'clone'}}>{s}</span></div>)}</div>;
 };
 
@@ -161,7 +173,7 @@ const Closing:React.FC=()=>{
  </AbsoluteFill>;
 };
 const Scene:React.FC<{scene:SceneDef}>=({scene})=>{
- const content=scene.id==='intro'?<Intro/>:scene.id==='problem'?<Problem/>:scene.id==='overview'?<Overview/>:scene.id==='workflow'?<Workflow/>:scene.id==='bridge'?<Confirmation bridge/>:scene.id==='architecture'?<Architecture/>:scene.id==='request'?<Request/>:scene.id==='deployment'?<Deployment/>:scene.id==='membership-request'||scene.id==='membership-review'||scene.id==='membership-result'?<MembershipFootage id={scene.id}/>:scene.id==='membership-record'?<MembershipRecord/>:<Closing/>;
+ const content=scene.id==='intro'?<Intro/>:scene.id==='problem'?<Problem/>:scene.id==='overview'?<Overview/>:scene.id==='workflow'?<Workflow/>:scene.id==='bridge'?<Confirmation bridge/>:scene.id==='architecture'?<Architecture/>:scene.id==='request'?<Request/>:scene.id==='deployment'?<Deployment/>:scene.id==='membership-request'||scene.id==='membership-review'||scene.id==='membership-result'?<MembershipFootage id={scene.id}/>:scene.id==='membership-record'?<MembershipRecord/>:scene.id.startsWith('features-')?<FeatureShowcase voice={scene.voice} recordingName={scene.recording!}/>:<Closing/>;
  return content;
 };
 export const Explainer:React.FC=()=>{

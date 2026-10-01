@@ -12,7 +12,8 @@ const required = [
   'recordings/demo-06-membership-pending.mp4',
   'recordings/demo-07-membership-approval.mp4',
   'recordings/demo-08-membership-result.mp4',
-  ...['01-intro','02-problem','03-overview','04-product-workflow','05-bridge','06-architecture','07-booking-request','08-deployment','09-close','10.1','10.2','10.3','10.4'].map(name=>`audio/voice/${name}.mp3`),
+  ...['create-resource','analytics','disputes','notifications'].map(name=>`recordings/${name}.mp4`),
+  ...['01-intro','02-problem','03-overview','04-product-workflow','05-bridge','06-architecture','07-booking-request','08-deployment','09-close','10.1','10.2','10.3','10.4','12.1','12.2','12.3','12.4'].map(name=>`audio/voice/${name}.mp3`),
 ];
 let missing=0;
 for(const file of required){const found=existsSync(join(base,file));console.log(`${found?'FOUND':'MISSING'}  public/${file}`);if(!found) missing++;}

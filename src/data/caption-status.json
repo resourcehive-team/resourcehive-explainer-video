@@ -63,5 +63,25 @@
     "method": "Whisper base.en word timestamps mapped to supplied script",
     "matched_words": 84,
     "total_words": 84
+  },
+  "12.1": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 46,
+    "total_words": 46
+  },
+  "12.2": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 23,
+    "total_words": 23
+  },
+  "12.3": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 36,
+    "total_words": 36
+  },
+  "12.4": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 27,
+    "total_words": 28
   }
 }

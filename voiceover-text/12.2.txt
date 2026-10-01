@@ -1,0 +1,1 @@
+Next, the analytics dashboard gives organizations visibility into community usage. It tracks reservation volume, active members, high-demand equipment, and point velocity over time.

@@ -892,5 +892,174 @@
       "timestampMs": null,
       "confidence": null
     }
+  ],
+  "12.1": [
+    {
+      "text": "Beyond member bookings and organization approvals,",
+      "startMs": 0,
+      "endMs": 2360,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "ResourceHive provides dedicated operational tools for",
+      "startMs": 3140,
+      "endMs": 6180,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "administrators and community managers.",
+      "startMs": 6180,
+      "endMs": 8160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "First, creating and publishing a resource.",
+      "startMs": 9400,
+      "endMs": 11460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "An administrator configures the item, uploads details,",
+      "startMs": 12500,
+      "endMs": 15400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and defines availability rules, booking capacity, and points",
+      "startMs": 16080,
+      "endMs": 19460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "cost before publishing future reservation slots to the",
+      "startMs": 19460,
+      "endMs": 22580,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "catalogue.",
+      "startMs": 22580,
+      "endMs": 22780,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "12.2": [
+    {
+      "text": "Next, the analytics dashboard gives organizations visibility",
+      "startMs": 0,
+      "endMs": 3300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "into community usage.",
+      "startMs": 3300,
+      "endMs": 4920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "It tracks reservation volume,",
+      "startMs": 5640,
+      "endMs": 6820,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "active members, high-demand equipment, and point velocity",
+      "startMs": 7520,
+      "endMs": 10940,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "over time.",
+      "startMs": 10940,
+      "endMs": 11520,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "12.3": [
+    {
+      "text": "When disagreements arise, such as scheduling conflicts or",
+      "startMs": 0,
+      "endMs": 3500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "return condition issues, users can open a dispute.",
+      "startMs": 3500,
+      "endMs": 6480,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "A member selects the affected reservation,",
+      "startMs": 7400,
+      "endMs": 9120,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "explains the problem, and submits the claim with relevant",
+      "startMs": 9840,
+      "endMs": 12620,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "details directly from their account.",
+      "startMs": 12620,
+      "endMs": 14500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "12.4": [
+    {
+      "text": "Finally, the notification center keeps everyone aligned in",
+      "startMs": 0,
+      "endMs": 3520,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "real time.",
+      "startMs": 3520,
+      "endMs": 4160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "In-app alerts and push updates announce booking",
+      "startMs": 4820,
+      "endMs": 7040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "confirmations, membership decisions,",
+      "startMs": 7040,
+      "endMs": 8800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and dispute resolutions as soon as they happen.",
+      "startMs": 9520,
+      "endMs": 11900,
+      "timestampMs": null,
+      "confidence": null
+    }
   ]
 }

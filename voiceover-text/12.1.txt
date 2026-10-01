@@ -1,0 +1,3 @@
+Beyond member bookings and organization approvals, ResourceHive provides dedicated operational tools for administrators and community managers.
+
+First, creating and publishing a resource. An administrator configures the item, uploads details, and defines availability rules, booking capacity, and points cost before publishing future reservation slots to the catalogue.

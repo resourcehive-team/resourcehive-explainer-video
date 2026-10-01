@@ -69,3 +69,16 @@ These three original recordings have been supplied at 1920×1040, 60 fps. They a
 The full section is also preserved in `voiceover-text/10-membership-approval.txt`. Existing narration 01–09 is unchanged.
 
 Implementation evidence: `services/resource-service/src/memberships/memberships.service.ts` (`assertDirectOrganizationAdmin`, `updateMembershipStatus`, transaction + audit + notification); `apps/web/src/components/organization-member-list.tsx` (exact labels); `apps/web/src/components/resource-catalogue.tsx` (`No approved memberships`).
+
+## 12.1–12.4 — Platform operations (recordings supplied)
+
+These four scenes follow 10.4 and precede 09-close. Each original recording is played from beginning to end at normal speed, muted, without cropping. The scene lasts through the longer of its narration and recording, then holds the final frame through the existing transition. Subtitles use word timings from the matching narration file.
+
+| Narration | Exact script | Recording | Source size | Recording / narration |
+|---|---|---|---|---|
+| `12.1.mp3` | `voiceover-text/12.1.txt` | `public/recordings/create-resource.mp4` | 1920×1040 | 36.89 s / 23.33 s |
+| `12.2.mp3` | `voiceover-text/12.2.txt` | `public/recordings/analytics.mp4` | 1920×1040 | 18.03 s / 11.89 s |
+| `12.3.mp3` | `voiceover-text/12.3.txt` | `public/recordings/disputes.mp4` | 1920×1040 | 20.13 s / 14.92 s |
+| `12.4.mp3` | `voiceover-text/12.4.txt` | `public/recordings/notifications.mp4` | 1920×1080 | 22.80 s / 12.20 s |
+
+The legacy `demo-09-features.mp4` placeholder and combined `12.mp3` timing are no longer used. `src/features.tsx` retains the existing title, feature navigation, shadow, and static screen placement. The entire recording fits above the subtitle area.

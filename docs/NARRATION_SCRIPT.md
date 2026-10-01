@@ -72,6 +72,24 @@ The screen actions map to one membership record. The request starts as Pending f
 
 The approval and its audit record are saved together. When the member refreshes, the application reads the new status from that same membership. One record carries the request from the member, through the administrator's decision, to the Approved result.
 
+## 12.1 — Resource creation
+
+Beyond member bookings and organization approvals, ResourceHive provides dedicated operational tools for administrators and community managers.
+
+First, creating and publishing a resource. An administrator configures the item, uploads details, and defines availability rules, booking capacity, and points cost before publishing future reservation slots to the catalogue.
+
+## 12.2 — Analytics
+
+Next, the analytics dashboard gives organizations visibility into community usage. It tracks reservation volume, active members, high-demand equipment, and point velocity over time.
+
+## 12.3 — Disputes
+
+When disagreements arise, such as scheduling conflicts or return condition issues, users can open a dispute. A member selects the affected reservation, explains the problem, and submits the claim with relevant details directly from their account.
+
+## 12.4 — Notifications
+
+Finally, the notification center keeps everyone aligned in real time. In-app alerts and push updates announce booking confirmations, membership decisions, and dispute resolutions as soon as they happen.
+
 ## 09 — Close
 
 ResourceHive connects a practical member workflow to explicit backend rules. A user sees a straightforward reservation, while the implementation checks organization access, prevents competing bookings, records points consistently, and sends updates through a separate notification path. That is the central design of the project: make shared resources easier to use, with booking rules enforced where they matter.
