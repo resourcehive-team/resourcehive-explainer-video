@@ -1,0 +1,3 @@
+In the configured production setup, the Next.js frontend is on Vercel. Caddy and the four backend services run as containers on one Linode virtual machine. Only Caddy exposes the public backend ports; it forwards traffic to the services on the private Docker network. PostgreSQL is hosted separately on Neon, and Kafka is managed separately on Aiven.
+
+The deployment workflow builds four service images, publishes them to GitHub Container Registry, runs Prisma migrations, and updates the containers on Linode. The services are separated in code and containers, while the current deployment keeps them together on one VM.

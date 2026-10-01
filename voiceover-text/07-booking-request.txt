@@ -1,0 +1,7 @@
+Now follow the selected slot. The browser posts it to the bookings endpoint. Caddy sends that path to Booking Service, where a guard requires an authenticated user.
+
+The service checks the member's tenant context, finds the slot, and checks that its resource is active and accessible. It rejects a slot that has already started or has an existing booking. If the resource has a point cost, it also checks the member's balance.
+
+The booking record and any point deduction are written within one serializable database transaction. That means the reservation and its point entry succeed together or fail together. The database also has a constraint allowing only one active booking per slot. A concurrency test sends two requests for the same slot and expects exactly one to succeed.
+
+After the transaction commits, Booking Service attempts to publish booking notifications. Notification Service can turn the booking event into an in-app or push notification and emit a realtime update. This part is separate from the atomic database write, so we should not describe notification delivery as part of the booking transaction.

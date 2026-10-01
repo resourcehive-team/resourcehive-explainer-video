@@ -1,0 +1,20 @@
+import {statSync} from 'node:fs';
+import {join} from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+
+const root=fileURLToPath(new URL('../',import.meta.url));
+const input=join(root,'output/master.mp4');
+const output=join(root,'output/submission.mp4');
+const duration=Number(execFileSync('ffprobe',['-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',input],{encoding:'utf8'}).trim());
+if(!Number.isFinite(duration)||duration<=0||duration>=600)throw Error(`Duration must be under 10 minutes; got ${duration}`);
+const targetBytes=27*1024*1024;
+const audioKbps=80;
+const videoKbps=Math.floor((targetBytes*8/duration/1000-audioKbps)*0.97);
+if(videoKbps<300)throw Error('Size target leaves too little video bitrate. Shorten the video.');
+const nullOutput=process.platform==='win32'?'NUL':'/dev/null';
+const passlog=join(root,'output/ffmpeg-pass');
+const common=['-y','-i',input,'-c:v','libx264','-pix_fmt','yuv420p','-b:v',`${videoKbps}k`,'-preset','slow','-passlogfile',passlog];
+execFileSync('ffmpeg',[...common,'-pass','1','-an','-f','null',nullOutput],{stdio:'inherit'});
+execFileSync('ffmpeg',[...common,'-pass','2','-c:a','aac','-b:a',`${audioKbps}k`,'-movflags','+faststart',output],{stdio:'inherit'});
+console.log(`Submission: ${(statSync(output).size/1024/1024).toFixed(1)} MiB at ${videoKbps}k video.`);

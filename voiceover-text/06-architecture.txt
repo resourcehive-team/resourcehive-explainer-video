@@ -1,0 +1,5 @@
+The interface is a Next.js application. The backend is split into four NestJS services: Identity, Resource, Booking, and Notification. There is no separate Points service in this repository. Points logic lives in Booking Service.
+
+Public API requests first meet Caddy, which routes each path to the appropriate private service. Identity handles accounts and authentication. Resource handles organizations, memberships, and the resource catalogue. Booking owns slots, reservations, points, disputes, and analytics. Notification processes messages and realtime events.
+
+The services use Prisma with PostgreSQL. The configured production database is hosted by Neon. Kafka, configured through Aiven, carries notification related events. This diagram shows logical responsibilities and the actual configured connections; the four service boxes do not mean four separate machines.

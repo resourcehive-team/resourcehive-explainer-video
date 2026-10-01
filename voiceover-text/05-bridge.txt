@@ -1,0 +1,1 @@
+So that is what the member sees. But what has to happen between clicking Confirm and showing this result? The important thing is that the booking service, rather than the browser, makes the final decision about access, slot availability, and points.

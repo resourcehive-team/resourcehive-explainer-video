@@ -1,0 +1,21 @@
+import {readFileSync, statSync, writeFileSync} from 'node:fs';
+import {join} from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+
+const root=fileURLToPath(new URL('../',import.meta.url));
+const file=join(root,'output/submission.mp4');
+const probe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-show_format','-of','json',file],{encoding:'utf8'}));
+const duration=Number(probe.format.duration);
+const size=statSync(file).size;
+const video=probe.streams.find(s=>s.codec_type==='video');
+const audio=probe.streams.find(s=>s.codec_type==='audio');
+const timing=JSON.parse(readFileSync(join(root,'src/data/timing.json'),'utf8'));
+const captionStatus=JSON.parse(readFileSync(join(root,'src/data/caption-status.json'),'utf8'));
+const missingMedia=Object.keys(timing).filter(key=>key.startsWith('recordings/')||key.startsWith('audio/voice/')).length<13;
+const captionsPresent=Object.keys(captionStatus).length===9;
+const ok=duration<600&&size<=30*1024*1024&&Boolean(video)&&Boolean(audio)&&!missingMedia&&captionsPresent;
+const report=`# QA report\n\n- Duration: ${duration.toFixed(2)} s\n- Size: ${(size/1024/1024).toFixed(2)} MiB\n- Resolution: ${video?.width}×${video?.height}\n- Frame rate: ${video?.r_frame_rate}\n- Video codec: ${video?.codec_name}\n- Audio codec: ${audio?.codec_name}\n- Bitrate: ${probe.format.bit_rate}\n- Structural checks: ${ok?'PASS':'FAIL'}\n- Visual review: pending human inspection of rendered output\n- Caption timing: ${Object.values(captionStatus).every(value=>value==='ElevenLabs character alignment')?'ElevenLabs aligned':'some cues estimated from script and measured audio; review synchronization'}\n`;
+writeFileSync(join(root,'output/QA_REPORT.md'),report);
+console.log(report);
+if(!ok)process.exitCode=1;

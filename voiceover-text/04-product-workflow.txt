@@ -1,0 +1,7 @@
+Here is the resource catalogue. A member can browse the items shared with their organization and open a resource for more detail. The detail page identifies its owner, shows its booking cost in points, and explains that access, availability, and balance will be checked before a reservation is confirmed.
+
+I open Create booking. The dialog loads future published slots for this specific resource. These times are displayed in the viewer's local timezone. I choose one available time and confirm. The interface sends the selected slot identifier to the booking API; it does not decide on its own whether the slot is safe to reserve.
+
+The confirmation gives a booking reference, the scheduled time, and any points deducted. There is also a receipt download action. From the Bookings page, the member can review upcoming and past reservations and keep the reference available. This is the complete user action we will now trace behind the screen.
+
+The application also has organization membership, notifications, disputes, and analytics views. They are useful context, but this booking gives us a clearer way to explain how the pieces work together.

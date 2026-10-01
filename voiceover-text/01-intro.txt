@@ -1,0 +1,1 @@
+ResourceHive is a platform for university communities to share resources. In this video, I will show a member booking a resource, then follow that same action through the code and deployment behind it.

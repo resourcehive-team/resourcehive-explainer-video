@@ -1,0 +1,30 @@
+{
+  "name": "resourcehive-explainer-video",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "export-voice-text": "node scripts/export-voice-text.mjs",
+    "check-assets": "node scripts/check-assets.mjs",
+    "sync-timing": "node scripts/sync-timing.mjs",
+    "build-captions": "node scripts/build-captions.mjs",
+    "render:preview": "remotion render src/index.ts ResourceHiveExplainer output/preview.mp4 --codec h264 --crf 20",
+    "render:master": "pnpm run check-assets && pnpm run sync-timing && pnpm run build-captions && remotion render src/index.ts ResourceHiveExplainer output/master.mp4 --codec h264 --crf 17",
+    "compress": "node scripts/compress.mjs",
+    "verify": "node scripts/verify.mjs",
+    "submission": "pnpm run render:master && pnpm run compress && pnpm run verify",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.531",
+    "remotion": "4.0.531",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

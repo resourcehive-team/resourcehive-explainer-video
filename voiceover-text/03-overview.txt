@@ -1,0 +1,1 @@
+The dashboard gives members a resource catalogue, organization information, their bookings, and notifications. Administrators can manage resources and review bookings for the organizations they administer. I will focus on one small task that connects the interface to the implementation: reserving a published slot.

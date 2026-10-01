@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+remotion-*.tgz
+output/*.mp4
+output/*.log
+public/recordings/*.mp4
+public/audio/voice/*.mp3
+public/audio/music/*.mp3
+public/audio/sfx/*.mp3
