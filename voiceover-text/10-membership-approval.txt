@@ -1,0 +1,11 @@
+Booking is one part of sharing a resource. The other is deciding who belongs to the organization that owns it.
+
+First, from the member's account, I request membership in the Engineering Faculty. After I submit the request, its status shows as Pending. The request is now waiting for an administrator to review it.
+
+Next, I switch to the Engineering Faculty administrator's member list. The same member appears under Pending requests. I choose Approve and confirm the decision.
+
+Finally, I return to the member's account and refresh My memberships. The Engineering Faculty status changes from Pending to Approved. We have now seen the complete membership flow: the member requests access, the administrator approves it, and the member sees the updated result.
+
+The screen actions map to one membership record. The request starts as Pending for this member and the Engineering Faculty. Before changing it to Approved, Resource Service checks that the administrator has permission to review this organization's requests and that this request is still eligible.
+
+The approval and its audit record are saved together. When the member refreshes, the application reads the new status from that same membership. One record carries the request from the member, through the administrator's decision, to the Approved result.

@@ -40,3 +40,32 @@ If the demo seed is used, its default member is `demo@example.edu` in `Demo Orga
 - This clip is optional if admin access is unavailable; the corresponding visual will be a clearly labeled code-drawn feature list rather than fake UI.
 
 After capture, place the files at the exact paths above and send a message. The final timing and captions will be rebuilt from the supplied media.
+
+## 06–08 — Membership approval (recordings supplied)
+
+These three original recordings have been supplied at 1920×1040, 60 fps. They are used directly, without a resized intermediate, and muted in the composition. They show one Engineering Faculty membership moving from request to approval. Section 10 appears after deployment and before the closing narration.
+
+### demo-06-membership-pending.mp4 — 16.8 seconds
+
+`public/recordings/demo-06-membership-pending.mp4` shows the member requesting membership in the Engineering Faculty and seeing the resulting Pending status.
+
+### demo-07-membership-approval.mp4 — 35.7 seconds
+
+`public/recordings/demo-07-membership-approval.mp4` shows the Engineering Faculty administrator's member list, the same member under Pending requests, and the administrator approving the request.
+
+### demo-08-membership-result.mp4 — 13.1 seconds
+
+`public/recordings/demo-08-membership-result.mp4` returns to the member account. After a refresh, My memberships changes from Pending to Approved. The narration stays on this visible status change and does not claim that the recording opens the resource catalogue.
+
+### Supplied narration and edit mapping
+
+| Voice file | Exact text file | Visual |
+|---|---|---|
+| `public/audio/voice/10.1.mp3` | `voiceover-text/10.1.txt` | Request and Pending result in demo-06 |
+| `public/audio/voice/10.2.mp3` | `voiceover-text/10.2.txt` | Administrator list, Approve, confirmation in demo-07 |
+| `public/audio/voice/10.3.mp3` | `voiceover-text/10.3.txt` | Member refresh and Approved result in demo-08 |
+| `public/audio/voice/10.4.mp3` | `voiceover-text/10.4.txt` | Animated membership record, checks, atomic status and audit update |
+
+The full section is also preserved in `voiceover-text/10-membership-approval.txt`. Existing narration 01–09 is unchanged.
+
+Implementation evidence: `services/resource-service/src/memberships/memberships.service.ts` (`assertDirectOrganizationAdmin`, `updateMembershipStatus`, transaction + audit + notification); `apps/web/src/components/organization-member-list.tsx` (exact labels); `apps/web/src/components/resource-catalogue.tsx` (`No approved memberships`).

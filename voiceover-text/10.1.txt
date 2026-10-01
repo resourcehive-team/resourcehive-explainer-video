@@ -1,0 +1,3 @@
+Booking is one part of sharing a resource. The other is deciding who belongs to the organization that owns it.
+
+First, from the member's account, I request membership in the Engineering Faculty. After I submit the request, its status shows as Pending. The request is now waiting for an administrator to review it.

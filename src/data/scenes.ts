@@ -11,5 +11,9 @@ export const scenes: SceneDef[] = [
   {id: 'architecture', title: 'Four services, clear responsibilities', voice: '06-architecture', seconds: 84},
   {id: 'request', title: 'Follow the booking request', voice: '07-booking-request', seconds: 100},
   {id: 'deployment', title: 'One VM for the backend', voice: '08-deployment', seconds: 70},
+  {id: 'membership-request', title: 'Request membership', voice: '10.1', seconds: 20, recording: 'demo-06-membership-pending'},
+  {id: 'membership-review', title: 'Approve membership', voice: '10.2', seconds: 11, recording: 'demo-07-membership-approval'},
+  {id: 'membership-result', title: 'Membership approved', voice: '10.3', seconds: 17, recording: 'demo-08-membership-result'},
+  {id: 'membership-record', title: 'One membership record', voice: '10.4', seconds: 32},
   {id: 'close', title: 'ResourceHive', voice: '09-close', seconds: 36, recording: 'demo-05-admin-montage'},
 ];

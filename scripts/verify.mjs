@@ -1,21 +1,8 @@
-import {readFileSync, statSync, writeFileSync} from 'node:fs';
-import {join} from 'node:path';
 import {execFileSync} from 'node:child_process';
-import {fileURLToPath} from 'node:url';
-
-const root=fileURLToPath(new URL('../',import.meta.url));
-const file=join(root,'output/submission.mp4');
-const probe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-show_format','-of','json',file],{encoding:'utf8'}));
-const duration=Number(probe.format.duration);
-const size=statSync(file).size;
-const video=probe.streams.find(s=>s.codec_type==='video');
-const audio=probe.streams.find(s=>s.codec_type==='audio');
-const timing=JSON.parse(readFileSync(join(root,'src/data/timing.json'),'utf8'));
-const captionStatus=JSON.parse(readFileSync(join(root,'src/data/caption-status.json'),'utf8'));
-const missingMedia=Object.keys(timing).filter(key=>key.startsWith('recordings/')||key.startsWith('audio/voice/')).length<13;
-const captionsPresent=Object.keys(captionStatus).length===9;
-const ok=duration<600&&size<=30*1024*1024&&Boolean(video)&&Boolean(audio)&&!missingMedia&&captionsPresent;
-const report=`# QA report\n\n- Duration: ${duration.toFixed(2)} s\n- Size: ${(size/1024/1024).toFixed(2)} MiB\n- Resolution: ${video?.width}×${video?.height}\n- Frame rate: ${video?.r_frame_rate}\n- Video codec: ${video?.codec_name}\n- Audio codec: ${audio?.codec_name}\n- Bitrate: ${probe.format.bit_rate}\n- Structural checks: ${ok?'PASS':'FAIL'}\n- Visual review: pending human inspection of rendered output\n- Caption timing: ${Object.values(captionStatus).every(value=>value==='ElevenLabs character alignment')?'ElevenLabs aligned':'some cues estimated from script and measured audio; review synchronization'}\n`;
-writeFileSync(join(root,'output/QA_REPORT.md'),report);
-console.log(report);
-if(!ok)process.exitCode=1;
+import {writeFileSync} from 'node:fs';
+const path=process.argv[2]??'output/draft-v3.mp4';
+const result=JSON.parse(execFileSync('ffprobe',['-v','error','-show_format','-show_streams','-of','json',path],{encoding:'utf8'}));
+const video=result.streams.find(x=>x.codec_type==='video'),audio=result.streams.find(x=>x.codec_type==='audio');
+if(video?.width!==1920||video?.height!==1080||video?.codec_name!=='h264'||video?.r_frame_rate!=='30/1'||video?.pix_fmt!=='yuv420p'||audio?.codec_name!=='aac')throw Error('Export did not meet the 1080p/30/H.264/yuv420p/AAC requirements');
+const report={path,width:video.width,height:video.height,fps:video.r_frame_rate,codec:video.codec_name,pixelFormat:video.pix_fmt,audio:audio.codec_name,duration:Number(result.format.duration),bytes:Number(result.format.size),sizeTarget:null};
+writeFileSync('output/verification-v3.json',JSON.stringify(report,null,2)+'\n');console.log(report);

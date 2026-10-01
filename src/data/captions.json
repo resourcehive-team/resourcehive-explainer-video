@@ -1,1 +1,896 @@
-{}
+{
+  "01-intro": [
+    {
+      "text": "ResourceHive is a platform for university communities to share resources.",
+      "startMs": 0,
+      "endMs": 3940,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "In this video, I will show a member booking a resource, then follow that",
+      "startMs": 4860,
+      "endMs": 8680,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "same action through the code and deployment behind it.",
+      "startMs": 8680,
+      "endMs": 11620,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "02-problem": [
+    {
+      "text": "A department or club may own equipment, rooms, or other useful items,",
+      "startMs": 0,
+      "endMs": 4480,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "while students elsewhere do not know what is available or who can use it.",
+      "startMs": 4880,
+      "endMs": 8720,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Availability also changes.",
+      "startMs": 9320,
+      "endMs": 10620,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "A simple list is not enough when two people can try to reserve the same",
+      "startMs": 11460,
+      "endMs": 14960,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "time.",
+      "startMs": 14960,
+      "endMs": 15300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "ResourceHive brings discovery, access rules, published time slots, and",
+      "startMs": 16180,
+      "endMs": 20240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "bookings into one workflow.",
+      "startMs": 20240,
+      "endMs": 21740,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "03-overview": [
+    {
+      "text": "The dashboard gives members a resource catalogue, organization information,",
+      "startMs": 0,
+      "endMs": 3640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "their bookings, and notifications.",
+      "startMs": 4460,
+      "endMs": 5760,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Administrators can manage resources and review bookings for the",
+      "startMs": 6860,
+      "endMs": 10040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "organizations they administer.",
+      "startMs": 10040,
+      "endMs": 11240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "I will focus on one small task that connects the interface to the",
+      "startMs": 12200,
+      "endMs": 15580,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "implementation:",
+      "startMs": 15580,
+      "endMs": 16000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "reserving a published slot.",
+      "startMs": 17100,
+      "endMs": 18380,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "04-product-workflow": [
+    {
+      "text": "Here is the resource catalogue.",
+      "startMs": 0,
+      "endMs": 2080,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "A member can browse the items shared with their organization and open a",
+      "startMs": 2080,
+      "endMs": 5700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "resource for more detail.",
+      "startMs": 5700,
+      "endMs": 6820,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The detail page identifies its owner, shows its booking cost in points, and",
+      "startMs": 7580,
+      "endMs": 12040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "explains that access, availability,",
+      "startMs": 12040,
+      "endMs": 13760,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and balance will be checked before a reservation is confirmed.",
+      "startMs": 14500,
+      "endMs": 17460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "I open Create booking. The dialog loads future published slots for this",
+      "startMs": 18440,
+      "endMs": 22840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "specific resource.",
+      "startMs": 22840,
+      "endMs": 23640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "These times are displayed in the viewer's local timezone.",
+      "startMs": 24480,
+      "endMs": 27720,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "I choose one available time and confirm.",
+      "startMs": 27720,
+      "endMs": 29660,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The interface sends the selected slot identifier to the booking API; it does",
+      "startMs": 29660,
+      "endMs": 34640,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "not decide on its own whether the slot is safe to reserve.",
+      "startMs": 34640,
+      "endMs": 37440,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The confirmation gives a booking reference, the scheduled time, and any",
+      "startMs": 38220,
+      "endMs": 41940,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "points deducted.",
+      "startMs": 41940,
+      "endMs": 42560,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "There is also a receipt download action.",
+      "startMs": 43440,
+      "endMs": 45240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "From the Bookings page, the member can review upcoming and past reservations",
+      "startMs": 45960,
+      "endMs": 49560,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and keep the reference available.",
+      "startMs": 49560,
+      "endMs": 51400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "This is the complete user action we will now trace behind the screen.",
+      "startMs": 52140,
+      "endMs": 55560,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The application also has organization membership, notifications, disputes,",
+      "startMs": 56120,
+      "endMs": 60600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and analytics views.",
+      "startMs": 60980,
+      "endMs": 61880,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "They are useful context, but this booking gives us a clearer way to explain",
+      "startMs": 62540,
+      "endMs": 66380,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "how the pieces work together.",
+      "startMs": 66380,
+      "endMs": 67860,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "05-bridge": [
+    {
+      "text": "So that is what the member sees.",
+      "startMs": 0,
+      "endMs": 1500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "But what has to happen between clicking Confirm and showing this result?",
+      "startMs": 2360,
+      "endMs": 5800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The important thing is that the booking service, rather than the browser,",
+      "startMs": 6700,
+      "endMs": 10020,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "makes the final decision about access, slot availability, and points.",
+      "startMs": 10500,
+      "endMs": 14600,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "06-architecture": [
+    {
+      "text": "The interface is a Next.js application.",
+      "startMs": 0,
+      "endMs": 1940,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The backend is split into four NestJS services: Identity, Resource,",
+      "startMs": 2860,
+      "endMs": 7500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Booking, and Notification.",
+      "startMs": 8020,
+      "endMs": 9060,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "There is no separate Points service in this repository.",
+      "startMs": 10020,
+      "endMs": 12360,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Points logic lives in Booking Service.",
+      "startMs": 12360,
+      "endMs": 15100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Public API requests first meet Caddy, which routes each path to the",
+      "startMs": 15840,
+      "endMs": 20100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "appropriate private service.",
+      "startMs": 20100,
+      "endMs": 21380,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Identity handles accounts and authentication.",
+      "startMs": 22140,
+      "endMs": 24240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Resource handles organizations,",
+      "startMs": 25220,
+      "endMs": 26320,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "memberships, and the resource catalogue.",
+      "startMs": 27140,
+      "endMs": 28700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Booking owns slots, reservations,",
+      "startMs": 28700,
+      "endMs": 31140,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "points, disputes, and analytics.",
+      "startMs": 31880,
+      "endMs": 33700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Notification processes messages and realtime events.",
+      "startMs": 34440,
+      "endMs": 37400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The services use Prisma with PostgreSQL.",
+      "startMs": 38220,
+      "endMs": 40200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The configured production database is hosted by Neon.",
+      "startMs": 41020,
+      "endMs": 43460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Kafka, configured through Aiven, carries notification related events.",
+      "startMs": 44520,
+      "endMs": 47980,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "This diagram shows logical responsibilities and the actual configured",
+      "startMs": 48680,
+      "endMs": 52360,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "connections;",
+      "startMs": 52360,
+      "endMs": 52820,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "the four service boxes do not mean four separate machines.",
+      "startMs": 53700,
+      "endMs": 56480,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "07-booking-request": [
+    {
+      "text": "Now follow the selected slot.",
+      "startMs": 0,
+      "endMs": 1340,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The browser posts it to the bookings endpoint.",
+      "startMs": 2060,
+      "endMs": 3960,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Caddy sends that path to Booking Service, where a guard requires an",
+      "startMs": 4700,
+      "endMs": 8200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "authenticated user. The service checks the member's tenant context, finds",
+      "startMs": 8200,
+      "endMs": 12560,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "the slot, and checks that its resource is active and accessible.",
+      "startMs": 12560,
+      "endMs": 15900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "It rejects a slot that has already started or has an existing booking.",
+      "startMs": 16700,
+      "endMs": 20120,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "If the resource has a point cost, it also checks the member's balance.",
+      "startMs": 20720,
+      "endMs": 24180,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The booking record and any point deduction are written within one",
+      "startMs": 24880,
+      "endMs": 28160,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "serializable database transaction.",
+      "startMs": 28160,
+      "endMs": 29820,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "That means the reservation and its point entry succeed together or fail",
+      "startMs": 29820,
+      "endMs": 34620,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "together.",
+      "startMs": 34620,
+      "endMs": 34920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The database also has a constraint allowing only one active booking per",
+      "startMs": 35580,
+      "endMs": 39500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "slot. A concurrency test sends two requests for the same slot and expects",
+      "startMs": 39500,
+      "endMs": 44100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "exactly one to succeed.",
+      "startMs": 44100,
+      "endMs": 45680,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "After the transaction commits, Booking Service attempts to publish booking",
+      "startMs": 46340,
+      "endMs": 50100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "notifications. Notification Service can turn the booking event into an",
+      "startMs": 50100,
+      "endMs": 54180,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "in-app or push notification and emit a realtime update.",
+      "startMs": 54180,
+      "endMs": 57440,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "This part is separate from the atomic database write, so we should not",
+      "startMs": 58080,
+      "endMs": 61040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "describe notification delivery as part of the booking transaction.",
+      "startMs": 61040,
+      "endMs": 63700,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "08-deployment": [
+    {
+      "text": "In the configured production setup, the Next.js frontend is on Vercel.",
+      "startMs": 0,
+      "endMs": 3960,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Caddy and the four backend services run as containers on one Linode virtual",
+      "startMs": 4620,
+      "endMs": 8680,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "machine.",
+      "startMs": 8680,
+      "endMs": 9100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Only Caddy exposes the public backend ports; it forwards traffic to the",
+      "startMs": 10080,
+      "endMs": 13980,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "services on the private Docker network.",
+      "startMs": 13980,
+      "endMs": 15840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "PostgreSQL is hosted separately on Neon, and Kafka is managed separately on",
+      "startMs": 16560,
+      "endMs": 21560,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Aiven.",
+      "startMs": 21560,
+      "endMs": 21900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The deployment workflow builds four service images, publishes them to GitHub",
+      "startMs": 22560,
+      "endMs": 26380,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Container Registry,",
+      "startMs": 26380,
+      "endMs": 27240,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "runs Prisma migrations, and updates the containers on Linode.",
+      "startMs": 27960,
+      "endMs": 31200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The services are separated in code and containers, while the current",
+      "startMs": 31820,
+      "endMs": 35300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "deployment keeps them together on one VM.",
+      "startMs": 35300,
+      "endMs": 37500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "09-close": [
+    {
+      "text": "ResourceHive connects a practical member workflow to explicit backend rules.",
+      "startMs": 0,
+      "endMs": 4220,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "A user sees a straightforward reservation, while the implementation checks",
+      "startMs": 5060,
+      "endMs": 8840,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "organization access, prevents competing bookings,",
+      "startMs": 8840,
+      "endMs": 11800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "records points consistently,",
+      "startMs": 12480,
+      "endMs": 13380,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and sends updates through a separate notification path.",
+      "startMs": 14200,
+      "endMs": 16620,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "That is the central design of the project:",
+      "startMs": 17380,
+      "endMs": 19300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "make shared resources easier to use, with booking rules enforced where they",
+      "startMs": 20060,
+      "endMs": 24300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "matter.",
+      "startMs": 24300,
+      "endMs": 24460,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "10.1": [
+    {
+      "text": "Booking is one part of sharing a resource.",
+      "startMs": 0,
+      "endMs": 1960,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The other is deciding who belongs to the organization that owns it.",
+      "startMs": 2780,
+      "endMs": 6460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "First, from the member's account, I request membership in the Engineering",
+      "startMs": 7240,
+      "endMs": 10920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Faculty.",
+      "startMs": 10920,
+      "endMs": 11540,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "After I submit the request, its status shows as Pending.",
+      "startMs": 12280,
+      "endMs": 16220,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The request is now waiting for an administrator to review it.",
+      "startMs": 16220,
+      "endMs": 19040,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "10.2": [
+    {
+      "text": "Next, I switch to the Engineering Faculty administrator's member list.",
+      "startMs": 0,
+      "endMs": 3740,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The same member appears under Pending requests.",
+      "startMs": 4580,
+      "endMs": 6860,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "I choose Approve and confirm the decision.",
+      "startMs": 7840,
+      "endMs": 9860,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "10.3": [
+    {
+      "text": "Finally, I return to the member's account and refresh My memberships.",
+      "startMs": 0,
+      "endMs": 3500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The Engineering Faculty status changes from Pending to Approved.",
+      "startMs": 4320,
+      "endMs": 7620,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "We have now seen the complete membership flow: the member requests access,",
+      "startMs": 8520,
+      "endMs": 12480,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "the administrator approves it, and the member sees the updated result.",
+      "startMs": 13040,
+      "endMs": 16460,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "10.4": [
+    {
+      "text": "The screen actions map to one membership record.",
+      "startMs": 0,
+      "endMs": 2440,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The request starts as Pending for this member and the Engineering Faculty.",
+      "startMs": 3160,
+      "endMs": 6780,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Before changing it to Approved,",
+      "startMs": 7480,
+      "endMs": 8680,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Resource Service checks that the administrator has permission to review this",
+      "startMs": 9340,
+      "endMs": 12920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "organization's requests",
+      "startMs": 12920,
+      "endMs": 14040,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "and that this request is still eligible.",
+      "startMs": 14700,
+      "endMs": 16500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "The approval and its audit record are saved together.",
+      "startMs": 17380,
+      "endMs": 19900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "When the member refreshes, the application reads the new status from that",
+      "startMs": 20620,
+      "endMs": 24300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "same membership. One record carries the request from the member, through the",
+      "startMs": 24300,
+      "endMs": 28780,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "administrator's decision, to the Approved result.",
+      "startMs": 28780,
+      "endMs": 31260,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

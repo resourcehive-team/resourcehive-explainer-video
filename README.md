@@ -1,22 +1,15 @@
 # ResourceHive explainer video
 
-This is a code-generated Remotion project for an academic ResourceHive implementation video. The factual story is in `docs/IMPLEMENTATION_AUDIT.md`; the exact recordings and voice files are specified in `docs/CAPTURE_GUIDE.md` and `docs/VOICEOVER_GENERATION.md`.
+Current motion-design draft: `output/draft-v3.mp4` (`draft-v2.mp4` retained for comparison). 1920×1080, 30 fps, H.264, narration only. Original source recordings are used directly. There is no final file-size target.
 
-## Current state
+- `pnpm run studio` — Remotion Studio (no automatic browser opening)
+- `pnpm run typecheck` — check the TypeScript composition
+- `pnpm run render:draft` — render PNG frames to H.264 and normalize narration without reencoding the video stream
+- `pnpm run verify` — inspect dimensions, codecs, duration and audio presence
+- `python scripts/align-captions.py` — rebuild actual-audio caption timing (requires faster-whisper + numpy; downloads a local base.en model once)
 
-The scene and audio timeline, architecture diagrams, media placeholders, asset validator, duration measurement, caption cue generator, render, compression, and structural QA scripts are scaffolded. Narration MP3s and real UI recordings have not been supplied. `render:preview` is a development preview with visibly marked missing assets. It is not a submission video. Caption cues use ElevenLabs character alignment JSON when supplied; otherwise they are estimated from the exact script and measured audio duration and require visual synchronization review.
+Design and motion contract: DESIGN.md. Product/architecture evidence: docs/IMPLEMENTATION_AUDIT.md. Section 10 uses the three supplied membership recordings, four supplied voice files, and the matching `voiceover-text/10.1.txt` through `10.4.txt` scripts, immediately before the closing narration. The complete script is in docs/NARRATION_SCRIPT.md.
 
-## Commands
+Captions retain the supplied script and use recognized audio timestamps. The match statistics are in src/data/caption-status.json. Unrecognized terms interpolate between neighboring word timestamps. No remote transcription or voice generation is used.
 
-```text
-pnpm install
-pnpm run export-voice-text
-pnpm run check-assets
-pnpm run studio
-pnpm run render:preview
-pnpm run submission
-```
-
-`npm run submission` blocks on missing required files, measures actual media durations, renders `output/master.mp4`, compresses `output/submission.mp4` near the file-size target, and writes `output/QA_REPORT.md`. FFmpeg and FFprobe must be available on PATH. Review the final output visually and listen to the mix before submitting.
-
-The current timeline is provisional: after recording, clip trim points, caption alignment, visual pacing, and music ducking must be tuned to the real media. The source files stay in this folder; no editor project is required.
+The legacy compression script is retained for optional future use, but the default export does not invoke it.

@@ -1,6 +1,6 @@
 # Voiceover generation
 
-Generate nine MP3 files from the **exact text** in `NARRATION_SCRIPT.md`, one numbered section per file. Use one ElevenLabs stock voice with unchanged model, stability, similarity and style settings. Export MP3 without added music or effects. Keep a natural brief pause at the beginning and end of each file; the video timeline will use actual measured durations.
+The nine original MP3 files and four section 10 files are supplied. Their exact text is in `NARRATION_SCRIPT.md` and `voiceover-text/`. Use the same voice and settings if a segment ever needs rerecording. Export MP3 without added music or effects. The video timeline uses the measured durations; do not time-stretch narration.
 
 | File in `public/audio/voice/` | Approx. duration | Pronunciation check |
 | --- | ---: | --- |
@@ -13,5 +13,9 @@ Generate nine MP3 files from the **exact text** in `NARRATION_SCRIPT.md`, one nu
 | `07-booking-request.mp3` | 95 s | serializable, concurrency |
 | `08-deployment.mp3` | 65 s | Linode, Vercel, GHCR, Prisma |
 | `09-close.mp3` | 30 s | ResourceHive |
+| `10.1.mp3` | 19.33 s | Engineering Faculty, Pending |
+| `10.2.mp3` | 10.27 s | Engineering Faculty, Approve |
+| `10.3.mp3` | 16.85 s | My memberships, Approved |
+| `10.4.mp3` | 31.56 s | Resource Service, audit record |
 
-These are estimates. Do not time-stretch narration to fit them. If ElevenLabs offers timing/alignment JSON, save the matching file beside each MP3 with the same stem and `.json` extension.
+The 01–09 values in the table are earlier estimates; the section 10 values are measured. The actual duration of every supplied file is recorded in `src/data/timing.json`. Word-aligned caption cues are in `src/data/captions.json`.

@@ -1,0 +1,12 @@
+{
+  "path": "output/draft-v2.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "audio": "aac",
+  "duration": 332.4,
+  "bytes": 32882086,
+  "sizeTarget": null
+}

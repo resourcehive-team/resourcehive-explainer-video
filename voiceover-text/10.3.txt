@@ -1,0 +1,1 @@
+Finally, I return to the member's account and refresh My memberships. The Engineering Faculty status changes from Pending to Approved. We have now seen the complete membership flow: the member requests access, the administrator approves it, and the member sees the updated result.

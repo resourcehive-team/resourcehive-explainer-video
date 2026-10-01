@@ -1,3 +1,5 @@
+> Revision 2 (2026-10-01): The existing nine voice files and five recordings are supplied. No music/SFX is required. Export is 1920×1080 with no size target. Membership extension assets are requested in CAPTURE_GUIDE.md sections 06–08 and voiceover-text/10-membership-approval.txt. This note supersedes earlier missing-asset or file-size assumptions below.
+
 # Storyboard
 
 Durations below are guides; final audio duration controls each scene. Music remains low under speech.

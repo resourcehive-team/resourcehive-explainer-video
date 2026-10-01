@@ -1,0 +1,3 @@
+The screen actions map to one membership record. The request starts as Pending for this member and the Engineering Faculty. Before changing it to Approved, Resource Service checks that the administrator has permission to review this organization's requests and that this request is still eligible.
+
+The approval and its audit record are saved together. When the member refreshes, the application reads the new status from that same membership. One record carries the request from the member, through the administrator's decision, to the Approved result.

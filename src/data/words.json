@@ -1,0 +1,5093 @@
+{
+  "01-intro": [
+    {
+      "text": "ResourceHive",
+      "start": 0.0,
+      "end": 0.7
+    },
+    {
+      "text": "is",
+      "start": 0.7,
+      "end": 0.94
+    },
+    {
+      "text": "a",
+      "start": 0.94,
+      "end": 1.04
+    },
+    {
+      "text": "platform",
+      "start": 1.04,
+      "end": 1.4
+    },
+    {
+      "text": "for",
+      "start": 1.4,
+      "end": 1.78
+    },
+    {
+      "text": "university",
+      "start": 1.78,
+      "end": 2.16
+    },
+    {
+      "text": "communities",
+      "start": 2.16,
+      "end": 2.7
+    },
+    {
+      "text": "to",
+      "start": 2.7,
+      "end": 3.26
+    },
+    {
+      "text": "share",
+      "start": 3.26,
+      "end": 3.48
+    },
+    {
+      "text": "resources.",
+      "start": 3.48,
+      "end": 3.94
+    },
+    {
+      "text": "In",
+      "start": 4.86,
+      "end": 4.88
+    },
+    {
+      "text": "this",
+      "start": 4.88,
+      "end": 5.0
+    },
+    {
+      "text": "video,",
+      "start": 5.0,
+      "end": 5.38
+    },
+    {
+      "text": "I",
+      "start": 5.72,
+      "end": 5.9
+    },
+    {
+      "text": "will",
+      "start": 5.9,
+      "end": 6.02
+    },
+    {
+      "text": "show",
+      "start": 6.02,
+      "end": 6.22
+    },
+    {
+      "text": "a",
+      "start": 6.22,
+      "end": 6.36
+    },
+    {
+      "text": "member",
+      "start": 6.36,
+      "end": 6.64
+    },
+    {
+      "text": "booking",
+      "start": 6.64,
+      "end": 7.08
+    },
+    {
+      "text": "a",
+      "start": 7.08,
+      "end": 7.22
+    },
+    {
+      "text": "resource,",
+      "start": 7.22,
+      "end": 7.52
+    },
+    {
+      "text": "then",
+      "start": 8.1,
+      "end": 8.14
+    },
+    {
+      "text": "follow",
+      "start": 8.14,
+      "end": 8.42
+    },
+    {
+      "text": "that",
+      "start": 8.42,
+      "end": 8.68
+    },
+    {
+      "text": "same",
+      "start": 8.68,
+      "end": 8.96
+    },
+    {
+      "text": "action",
+      "start": 8.96,
+      "end": 9.38
+    },
+    {
+      "text": "through",
+      "start": 9.38,
+      "end": 9.72
+    },
+    {
+      "text": "the",
+      "start": 9.72,
+      "end": 9.86
+    },
+    {
+      "text": "code",
+      "start": 9.86,
+      "end": 10.2
+    },
+    {
+      "text": "and",
+      "start": 10.2,
+      "end": 10.48
+    },
+    {
+      "text": "deployment",
+      "start": 10.48,
+      "end": 10.84
+    },
+    {
+      "text": "behind",
+      "start": 10.84,
+      "end": 11.34
+    },
+    {
+      "text": "it.",
+      "start": 11.34,
+      "end": 11.62
+    }
+  ],
+  "02-problem": [
+    {
+      "text": "A",
+      "start": 0.0,
+      "end": 0.1
+    },
+    {
+      "text": "department",
+      "start": 0.1,
+      "end": 0.36
+    },
+    {
+      "text": "or",
+      "start": 0.36,
+      "end": 0.88
+    },
+    {
+      "text": "club",
+      "start": 0.88,
+      "end": 1.14
+    },
+    {
+      "text": "may",
+      "start": 1.14,
+      "end": 1.56
+    },
+    {
+      "text": "own",
+      "start": 1.56,
+      "end": 1.76
+    },
+    {
+      "text": "equipment,",
+      "start": 1.76,
+      "end": 2.14
+    },
+    {
+      "text": "rooms,",
+      "start": 2.62,
+      "end": 2.86
+    },
+    {
+      "text": "or",
+      "start": 2.86,
+      "end": 3.5
+    },
+    {
+      "text": "other",
+      "start": 3.5,
+      "end": 3.78
+    },
+    {
+      "text": "useful",
+      "start": 3.78,
+      "end": 4.04
+    },
+    {
+      "text": "items,",
+      "start": 4.04,
+      "end": 4.48
+    },
+    {
+      "text": "while",
+      "start": 4.88,
+      "end": 5.06
+    },
+    {
+      "text": "students",
+      "start": 5.06,
+      "end": 5.36
+    },
+    {
+      "text": "elsewhere",
+      "start": 5.36,
+      "end": 5.96
+    },
+    {
+      "text": "do",
+      "start": 5.96,
+      "end": 6.24
+    },
+    {
+      "text": "not",
+      "start": 6.24,
+      "end": 6.5
+    },
+    {
+      "text": "know",
+      "start": 6.5,
+      "end": 6.82
+    },
+    {
+      "text": "what",
+      "start": 6.82,
+      "end": 7.04
+    },
+    {
+      "text": "is",
+      "start": 7.04,
+      "end": 7.14
+    },
+    {
+      "text": "available",
+      "start": 7.14,
+      "end": 7.44
+    },
+    {
+      "text": "or",
+      "start": 7.44,
+      "end": 7.96
+    },
+    {
+      "text": "who",
+      "start": 7.96,
+      "end": 8.18
+    },
+    {
+      "text": "can",
+      "start": 8.18,
+      "end": 8.32
+    },
+    {
+      "text": "use",
+      "start": 8.32,
+      "end": 8.54
+    },
+    {
+      "text": "it.",
+      "start": 8.54,
+      "end": 8.72
+    },
+    {
+      "text": "Availability",
+      "start": 9.32,
+      "end": 9.62
+    },
+    {
+      "text": "also",
+      "start": 9.62,
+      "end": 10.2
+    },
+    {
+      "text": "changes.",
+      "start": 10.2,
+      "end": 10.62
+    },
+    {
+      "text": "A",
+      "start": 11.46,
+      "end": 11.46
+    },
+    {
+      "text": "simple",
+      "start": 11.46,
+      "end": 11.66
+    },
+    {
+      "text": "list",
+      "start": 11.66,
+      "end": 12.04
+    },
+    {
+      "text": "is",
+      "start": 12.04,
+      "end": 12.28
+    },
+    {
+      "text": "not",
+      "start": 12.28,
+      "end": 12.54
+    },
+    {
+      "text": "enough",
+      "start": 12.54,
+      "end": 12.84
+    },
+    {
+      "text": "when",
+      "start": 12.84,
+      "end": 13.14
+    },
+    {
+      "text": "two",
+      "start": 13.14,
+      "end": 13.38
+    },
+    {
+      "text": "people",
+      "start": 13.38,
+      "end": 13.74
+    },
+    {
+      "text": "can",
+      "start": 13.74,
+      "end": 13.9
+    },
+    {
+      "text": "try",
+      "start": 13.9,
+      "end": 14.1
+    },
+    {
+      "text": "to",
+      "start": 14.1,
+      "end": 14.24
+    },
+    {
+      "text": "reserve",
+      "start": 14.24,
+      "end": 14.44
+    },
+    {
+      "text": "the",
+      "start": 14.44,
+      "end": 14.68
+    },
+    {
+      "text": "same",
+      "start": 14.68,
+      "end": 14.96
+    },
+    {
+      "text": "time.",
+      "start": 14.96,
+      "end": 15.3
+    },
+    {
+      "text": "ResourceHive",
+      "start": 16.18,
+      "end": 16.64
+    },
+    {
+      "text": "brings",
+      "start": 16.64,
+      "end": 16.94
+    },
+    {
+      "text": "discovery,",
+      "start": 16.94,
+      "end": 17.6
+    },
+    {
+      "text": "access",
+      "start": 17.86,
+      "end": 18.18
+    },
+    {
+      "text": "rules,",
+      "start": 18.18,
+      "end": 18.6
+    },
+    {
+      "text": "published",
+      "start": 18.96,
+      "end": 19.22
+    },
+    {
+      "text": "time",
+      "start": 19.22,
+      "end": 19.5
+    },
+    {
+      "text": "slots,",
+      "start": 19.5,
+      "end": 19.76
+    },
+    {
+      "text": "and",
+      "start": 19.76,
+      "end": 20.24
+    },
+    {
+      "text": "bookings",
+      "start": 20.24,
+      "end": 20.74
+    },
+    {
+      "text": "into",
+      "start": 20.74,
+      "end": 21.08
+    },
+    {
+      "text": "one",
+      "start": 21.08,
+      "end": 21.36
+    },
+    {
+      "text": "workflow.",
+      "start": 21.36,
+      "end": 21.74
+    }
+  ],
+  "03-overview": [
+    {
+      "text": "The",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "text": "dashboard",
+      "start": 0.16,
+      "end": 0.46
+    },
+    {
+      "text": "gives",
+      "start": 0.46,
+      "end": 0.8
+    },
+    {
+      "text": "members",
+      "start": 0.8,
+      "end": 1.14
+    },
+    {
+      "text": "a",
+      "start": 1.14,
+      "end": 1.5
+    },
+    {
+      "text": "resource",
+      "start": 1.5,
+      "end": 1.76
+    },
+    {
+      "text": "catalogue,",
+      "start": 1.76,
+      "end": 2.74
+    },
+    {
+      "text": "organization",
+      "start": 2.74,
+      "end": 3.02
+    },
+    {
+      "text": "information,",
+      "start": 3.02,
+      "end": 3.64
+    },
+    {
+      "text": "their",
+      "start": 4.46,
+      "end": 4.48
+    },
+    {
+      "text": "bookings,",
+      "start": 4.48,
+      "end": 4.96
+    },
+    {
+      "text": "and",
+      "start": 5.28,
+      "end": 5.34
+    },
+    {
+      "text": "notifications.",
+      "start": 5.34,
+      "end": 5.76
+    },
+    {
+      "text": "Administrators",
+      "start": 6.86,
+      "end": 7.46
+    },
+    {
+      "text": "can",
+      "start": 7.46,
+      "end": 7.76
+    },
+    {
+      "text": "manage",
+      "start": 7.76,
+      "end": 8.04
+    },
+    {
+      "text": "resources",
+      "start": 8.04,
+      "end": 8.42
+    },
+    {
+      "text": "and",
+      "start": 8.42,
+      "end": 9.0
+    },
+    {
+      "text": "review",
+      "start": 9.0,
+      "end": 9.3
+    },
+    {
+      "text": "bookings",
+      "start": 9.3,
+      "end": 9.76
+    },
+    {
+      "text": "for",
+      "start": 9.76,
+      "end": 9.94
+    },
+    {
+      "text": "the",
+      "start": 9.94,
+      "end": 10.04
+    },
+    {
+      "text": "organizations",
+      "start": 10.04,
+      "end": 10.52
+    },
+    {
+      "text": "they",
+      "start": 10.52,
+      "end": 10.96
+    },
+    {
+      "text": "administer.",
+      "start": 10.96,
+      "end": 11.24
+    },
+    {
+      "text": "I",
+      "start": 12.2,
+      "end": 12.28
+    },
+    {
+      "text": "will",
+      "start": 12.28,
+      "end": 12.4
+    },
+    {
+      "text": "focus",
+      "start": 12.4,
+      "end": 12.66
+    },
+    {
+      "text": "on",
+      "start": 12.66,
+      "end": 12.94
+    },
+    {
+      "text": "one",
+      "start": 12.94,
+      "end": 13.22
+    },
+    {
+      "text": "small",
+      "start": 13.22,
+      "end": 13.52
+    },
+    {
+      "text": "task",
+      "start": 13.52,
+      "end": 13.98
+    },
+    {
+      "text": "that",
+      "start": 13.98,
+      "end": 14.24
+    },
+    {
+      "text": "connects",
+      "start": 14.24,
+      "end": 14.48
+    },
+    {
+      "text": "the",
+      "start": 14.48,
+      "end": 14.76
+    },
+    {
+      "text": "interface",
+      "start": 14.76,
+      "end": 15.2
+    },
+    {
+      "text": "to",
+      "start": 15.2,
+      "end": 15.46
+    },
+    {
+      "text": "the",
+      "start": 15.46,
+      "end": 15.58
+    },
+    {
+      "text": "implementation:",
+      "start": 15.58,
+      "end": 16.0
+    },
+    {
+      "text": "reserving",
+      "start": 17.1,
+      "end": 17.4
+    },
+    {
+      "text": "a",
+      "start": 17.4,
+      "end": 17.58
+    },
+    {
+      "text": "published",
+      "start": 17.58,
+      "end": 17.88
+    },
+    {
+      "text": "slot.",
+      "start": 17.88,
+      "end": 18.38
+    }
+  ],
+  "04-product-workflow": [
+    {
+      "text": "Here",
+      "start": 0.0,
+      "end": 0.22
+    },
+    {
+      "text": "is",
+      "start": 0.22,
+      "end": 0.42
+    },
+    {
+      "text": "the",
+      "start": 0.42,
+      "end": 0.56
+    },
+    {
+      "text": "resource",
+      "start": 0.56,
+      "end": 0.8
+    },
+    {
+      "text": "catalogue.",
+      "start": 0.8,
+      "end": 2.08
+    },
+    {
+      "text": "A",
+      "start": 2.08,
+      "end": 2.1
+    },
+    {
+      "text": "member",
+      "start": 2.1,
+      "end": 2.26
+    },
+    {
+      "text": "can",
+      "start": 2.26,
+      "end": 2.54
+    },
+    {
+      "text": "browse",
+      "start": 2.54,
+      "end": 2.82
+    },
+    {
+      "text": "the",
+      "start": 2.82,
+      "end": 3.06
+    },
+    {
+      "text": "items",
+      "start": 3.06,
+      "end": 3.34
+    },
+    {
+      "text": "shared",
+      "start": 3.34,
+      "end": 3.68
+    },
+    {
+      "text": "with",
+      "start": 3.68,
+      "end": 3.9
+    },
+    {
+      "text": "their",
+      "start": 3.9,
+      "end": 4.06
+    },
+    {
+      "text": "organization",
+      "start": 4.06,
+      "end": 4.36
+    },
+    {
+      "text": "and",
+      "start": 4.36,
+      "end": 5.26
+    },
+    {
+      "text": "open",
+      "start": 5.26,
+      "end": 5.56
+    },
+    {
+      "text": "a",
+      "start": 5.56,
+      "end": 5.7
+    },
+    {
+      "text": "resource",
+      "start": 5.7,
+      "end": 5.98
+    },
+    {
+      "text": "for",
+      "start": 5.98,
+      "end": 6.32
+    },
+    {
+      "text": "more",
+      "start": 6.32,
+      "end": 6.48
+    },
+    {
+      "text": "detail.",
+      "start": 6.48,
+      "end": 6.82
+    },
+    {
+      "text": "The",
+      "start": 7.58,
+      "end": 7.62
+    },
+    {
+      "text": "detail",
+      "start": 7.62,
+      "end": 7.86
+    },
+    {
+      "text": "page",
+      "start": 7.86,
+      "end": 8.16
+    },
+    {
+      "text": "identifies",
+      "start": 8.16,
+      "end": 8.62
+    },
+    {
+      "text": "its",
+      "start": 8.62,
+      "end": 9.16
+    },
+    {
+      "text": "owner,",
+      "start": 9.16,
+      "end": 9.44
+    },
+    {
+      "text": "shows",
+      "start": 9.88,
+      "end": 10.14
+    },
+    {
+      "text": "its",
+      "start": 10.14,
+      "end": 10.36
+    },
+    {
+      "text": "booking",
+      "start": 10.36,
+      "end": 10.6
+    },
+    {
+      "text": "cost",
+      "start": 10.6,
+      "end": 10.94
+    },
+    {
+      "text": "in",
+      "start": 10.94,
+      "end": 11.16
+    },
+    {
+      "text": "points,",
+      "start": 11.16,
+      "end": 11.38
+    },
+    {
+      "text": "and",
+      "start": 11.92,
+      "end": 12.04
+    },
+    {
+      "text": "explains",
+      "start": 12.04,
+      "end": 12.4
+    },
+    {
+      "text": "that",
+      "start": 12.4,
+      "end": 12.7
+    },
+    {
+      "text": "access,",
+      "start": 12.7,
+      "end": 13.1
+    },
+    {
+      "text": "availability,",
+      "start": 13.52,
+      "end": 13.76
+    },
+    {
+      "text": "and",
+      "start": 14.5,
+      "end": 14.58
+    },
+    {
+      "text": "balance",
+      "start": 14.58,
+      "end": 14.96
+    },
+    {
+      "text": "will",
+      "start": 14.96,
+      "end": 15.4
+    },
+    {
+      "text": "be",
+      "start": 15.4,
+      "end": 15.54
+    },
+    {
+      "text": "checked",
+      "start": 15.54,
+      "end": 15.8
+    },
+    {
+      "text": "before",
+      "start": 15.8,
+      "end": 16.28
+    },
+    {
+      "text": "a",
+      "start": 16.28,
+      "end": 16.46
+    },
+    {
+      "text": "reservation",
+      "start": 16.46,
+      "end": 16.88
+    },
+    {
+      "text": "is",
+      "start": 16.88,
+      "end": 17.12
+    },
+    {
+      "text": "confirmed.",
+      "start": 17.12,
+      "end": 17.46
+    },
+    {
+      "text": "I",
+      "start": 18.44,
+      "end": 18.46
+    },
+    {
+      "text": "open",
+      "start": 18.46,
+      "end": 18.76
+    },
+    {
+      "text": "Create",
+      "start": 18.76,
+      "end": 19.22
+    },
+    {
+      "text": "booking.",
+      "start": 19.22,
+      "end": 19.76
+    },
+    {
+      "text": "The",
+      "start": 20.4,
+      "end": 20.46
+    },
+    {
+      "text": "dialog",
+      "start": 20.46,
+      "end": 20.72
+    },
+    {
+      "text": "loads",
+      "start": 20.72,
+      "end": 21.04
+    },
+    {
+      "text": "future",
+      "start": 21.04,
+      "end": 21.4
+    },
+    {
+      "text": "published",
+      "start": 21.4,
+      "end": 21.92
+    },
+    {
+      "text": "slots",
+      "start": 21.92,
+      "end": 22.28
+    },
+    {
+      "text": "for",
+      "start": 22.28,
+      "end": 22.62
+    },
+    {
+      "text": "this",
+      "start": 22.62,
+      "end": 22.84
+    },
+    {
+      "text": "specific",
+      "start": 22.84,
+      "end": 23.12
+    },
+    {
+      "text": "resource.",
+      "start": 23.12,
+      "end": 23.64
+    },
+    {
+      "text": "These",
+      "start": 24.48,
+      "end": 24.6
+    },
+    {
+      "text": "times",
+      "start": 24.6,
+      "end": 24.92
+    },
+    {
+      "text": "are",
+      "start": 24.92,
+      "end": 25.14
+    },
+    {
+      "text": "displayed",
+      "start": 25.14,
+      "end": 25.42
+    },
+    {
+      "text": "in",
+      "start": 25.42,
+      "end": 25.72
+    },
+    {
+      "text": "the",
+      "start": 25.72,
+      "end": 25.82
+    },
+    {
+      "text": "viewer's",
+      "start": 25.82,
+      "end": 26.26
+    },
+    {
+      "text": "local",
+      "start": 26.26,
+      "end": 26.5
+    },
+    {
+      "text": "timezone.",
+      "start": 26.5,
+      "end": 27.72
+    },
+    {
+      "text": "I",
+      "start": 27.72,
+      "end": 27.84
+    },
+    {
+      "text": "choose",
+      "start": 27.84,
+      "end": 27.98
+    },
+    {
+      "text": "one",
+      "start": 27.98,
+      "end": 28.3
+    },
+    {
+      "text": "available",
+      "start": 28.3,
+      "end": 28.56
+    },
+    {
+      "text": "time",
+      "start": 28.56,
+      "end": 29.02
+    },
+    {
+      "text": "and",
+      "start": 29.02,
+      "end": 29.36
+    },
+    {
+      "text": "confirm.",
+      "start": 29.36,
+      "end": 29.66
+    },
+    {
+      "text": "The",
+      "start": 29.66,
+      "end": 30.36
+    },
+    {
+      "text": "interface",
+      "start": 30.36,
+      "end": 30.88
+    },
+    {
+      "text": "sends",
+      "start": 30.88,
+      "end": 31.2
+    },
+    {
+      "text": "the",
+      "start": 31.2,
+      "end": 31.48
+    },
+    {
+      "text": "selected",
+      "start": 31.48,
+      "end": 31.9
+    },
+    {
+      "text": "slot",
+      "start": 31.9,
+      "end": 32.16
+    },
+    {
+      "text": "identifier",
+      "start": 32.16,
+      "end": 32.5
+    },
+    {
+      "text": "to",
+      "start": 32.5,
+      "end": 33.1
+    },
+    {
+      "text": "the",
+      "start": 33.1,
+      "end": 33.18
+    },
+    {
+      "text": "booking",
+      "start": 33.18,
+      "end": 33.42
+    },
+    {
+      "text": "API;",
+      "start": 33.42,
+      "end": 33.72
+    },
+    {
+      "text": "it",
+      "start": 34.34,
+      "end": 34.52
+    },
+    {
+      "text": "does",
+      "start": 34.52,
+      "end": 34.64
+    },
+    {
+      "text": "not",
+      "start": 34.64,
+      "end": 34.88
+    },
+    {
+      "text": "decide",
+      "start": 34.88,
+      "end": 35.22
+    },
+    {
+      "text": "on",
+      "start": 35.22,
+      "end": 35.48
+    },
+    {
+      "text": "its",
+      "start": 35.48,
+      "end": 35.62
+    },
+    {
+      "text": "own",
+      "start": 35.62,
+      "end": 35.88
+    },
+    {
+      "text": "whether",
+      "start": 35.88,
+      "end": 36.18
+    },
+    {
+      "text": "the",
+      "start": 36.18,
+      "end": 36.4
+    },
+    {
+      "text": "slot",
+      "start": 36.4,
+      "end": 36.6
+    },
+    {
+      "text": "is",
+      "start": 36.6,
+      "end": 36.82
+    },
+    {
+      "text": "safe",
+      "start": 36.82,
+      "end": 37.06
+    },
+    {
+      "text": "to",
+      "start": 37.06,
+      "end": 37.26
+    },
+    {
+      "text": "reserve.",
+      "start": 37.26,
+      "end": 37.44
+    },
+    {
+      "text": "The",
+      "start": 38.22,
+      "end": 38.32
+    },
+    {
+      "text": "confirmation",
+      "start": 38.32,
+      "end": 38.54
+    },
+    {
+      "text": "gives",
+      "start": 38.54,
+      "end": 39.12
+    },
+    {
+      "text": "a",
+      "start": 39.12,
+      "end": 39.3
+    },
+    {
+      "text": "booking",
+      "start": 39.3,
+      "end": 39.54
+    },
+    {
+      "text": "reference,",
+      "start": 39.54,
+      "end": 39.88
+    },
+    {
+      "text": "the",
+      "start": 40.48,
+      "end": 40.5
+    },
+    {
+      "text": "scheduled",
+      "start": 40.5,
+      "end": 40.82
+    },
+    {
+      "text": "time,",
+      "start": 40.82,
+      "end": 41.2
+    },
+    {
+      "text": "and",
+      "start": 41.64,
+      "end": 41.76
+    },
+    {
+      "text": "any",
+      "start": 41.76,
+      "end": 41.94
+    },
+    {
+      "text": "points",
+      "start": 41.94,
+      "end": 42.28
+    },
+    {
+      "text": "deducted.",
+      "start": 42.28,
+      "end": 42.56
+    },
+    {
+      "text": "There",
+      "start": 43.44,
+      "end": 43.54
+    },
+    {
+      "text": "is",
+      "start": 43.54,
+      "end": 43.66
+    },
+    {
+      "text": "also",
+      "start": 43.66,
+      "end": 44.0
+    },
+    {
+      "text": "a",
+      "start": 44.0,
+      "end": 44.16
+    },
+    {
+      "text": "receipt",
+      "start": 44.16,
+      "end": 44.44
+    },
+    {
+      "text": "download",
+      "start": 44.44,
+      "end": 44.76
+    },
+    {
+      "text": "action.",
+      "start": 44.76,
+      "end": 45.24
+    },
+    {
+      "text": "From",
+      "start": 45.96,
+      "end": 46.1
+    },
+    {
+      "text": "the",
+      "start": 46.1,
+      "end": 46.24
+    },
+    {
+      "text": "Bookings",
+      "start": 46.24,
+      "end": 46.56
+    },
+    {
+      "text": "page,",
+      "start": 46.56,
+      "end": 46.78
+    },
+    {
+      "text": "the",
+      "start": 47.22,
+      "end": 47.34
+    },
+    {
+      "text": "member",
+      "start": 47.34,
+      "end": 47.5
+    },
+    {
+      "text": "can",
+      "start": 47.5,
+      "end": 47.78
+    },
+    {
+      "text": "review",
+      "start": 47.78,
+      "end": 48.06
+    },
+    {
+      "text": "upcoming",
+      "start": 48.06,
+      "end": 48.52
+    },
+    {
+      "text": "and",
+      "start": 48.52,
+      "end": 48.94
+    },
+    {
+      "text": "past",
+      "start": 48.94,
+      "end": 49.26
+    },
+    {
+      "text": "reservations",
+      "start": 49.26,
+      "end": 49.56
+    },
+    {
+      "text": "and",
+      "start": 49.56,
+      "end": 50.3
+    },
+    {
+      "text": "keep",
+      "start": 50.3,
+      "end": 50.52
+    },
+    {
+      "text": "the",
+      "start": 50.52,
+      "end": 50.7
+    },
+    {
+      "text": "reference",
+      "start": 50.7,
+      "end": 50.9
+    },
+    {
+      "text": "available.",
+      "start": 50.9,
+      "end": 51.4
+    },
+    {
+      "text": "This",
+      "start": 52.14,
+      "end": 52.38
+    },
+    {
+      "text": "is",
+      "start": 52.38,
+      "end": 52.56
+    },
+    {
+      "text": "the",
+      "start": 52.56,
+      "end": 52.7
+    },
+    {
+      "text": "complete",
+      "start": 52.7,
+      "end": 53.04
+    },
+    {
+      "text": "user",
+      "start": 53.04,
+      "end": 53.38
+    },
+    {
+      "text": "action",
+      "start": 53.38,
+      "end": 53.7
+    },
+    {
+      "text": "we",
+      "start": 53.7,
+      "end": 54.04
+    },
+    {
+      "text": "will",
+      "start": 54.04,
+      "end": 54.18
+    },
+    {
+      "text": "now",
+      "start": 54.18,
+      "end": 54.4
+    },
+    {
+      "text": "trace",
+      "start": 54.4,
+      "end": 54.7
+    },
+    {
+      "text": "behind",
+      "start": 54.7,
+      "end": 54.98
+    },
+    {
+      "text": "the",
+      "start": 54.98,
+      "end": 55.32
+    },
+    {
+      "text": "screen.",
+      "start": 55.32,
+      "end": 55.56
+    },
+    {
+      "text": "The",
+      "start": 56.12,
+      "end": 56.32
+    },
+    {
+      "text": "application",
+      "start": 56.32,
+      "end": 56.6
+    },
+    {
+      "text": "also",
+      "start": 56.6,
+      "end": 57.06
+    },
+    {
+      "text": "has",
+      "start": 57.06,
+      "end": 57.48
+    },
+    {
+      "text": "organization",
+      "start": 57.48,
+      "end": 57.84
+    },
+    {
+      "text": "membership,",
+      "start": 57.84,
+      "end": 58.54
+    },
+    {
+      "text": "notifications,",
+      "start": 58.54,
+      "end": 59.48
+    },
+    {
+      "text": "disputes,",
+      "start": 59.48,
+      "end": 60.6
+    },
+    {
+      "text": "and",
+      "start": 60.98,
+      "end": 61.08
+    },
+    {
+      "text": "analytics",
+      "start": 61.08,
+      "end": 61.44
+    },
+    {
+      "text": "views.",
+      "start": 61.44,
+      "end": 61.88
+    },
+    {
+      "text": "They",
+      "start": 62.54,
+      "end": 62.66
+    },
+    {
+      "text": "are",
+      "start": 62.66,
+      "end": 62.74
+    },
+    {
+      "text": "useful",
+      "start": 62.74,
+      "end": 62.96
+    },
+    {
+      "text": "context,",
+      "start": 62.96,
+      "end": 63.44
+    },
+    {
+      "text": "but",
+      "start": 63.94,
+      "end": 64.14
+    },
+    {
+      "text": "this",
+      "start": 64.14,
+      "end": 64.36
+    },
+    {
+      "text": "booking",
+      "start": 64.36,
+      "end": 64.68
+    },
+    {
+      "text": "gives",
+      "start": 64.68,
+      "end": 64.98
+    },
+    {
+      "text": "us",
+      "start": 64.98,
+      "end": 65.16
+    },
+    {
+      "text": "a",
+      "start": 65.16,
+      "end": 65.28
+    },
+    {
+      "text": "clearer",
+      "start": 65.28,
+      "end": 65.56
+    },
+    {
+      "text": "way",
+      "start": 65.56,
+      "end": 65.92
+    },
+    {
+      "text": "to",
+      "start": 65.92,
+      "end": 66.08
+    },
+    {
+      "text": "explain",
+      "start": 66.08,
+      "end": 66.38
+    },
+    {
+      "text": "how",
+      "start": 66.38,
+      "end": 66.78
+    },
+    {
+      "text": "the",
+      "start": 66.78,
+      "end": 66.94
+    },
+    {
+      "text": "pieces",
+      "start": 66.94,
+      "end": 67.16
+    },
+    {
+      "text": "work",
+      "start": 67.16,
+      "end": 67.54
+    },
+    {
+      "text": "together.",
+      "start": 67.54,
+      "end": 67.86
+    }
+  ],
+  "05-bridge": [
+    {
+      "text": "So",
+      "start": 0.0,
+      "end": 0.14
+    },
+    {
+      "text": "that",
+      "start": 0.14,
+      "end": 0.44
+    },
+    {
+      "text": "is",
+      "start": 0.44,
+      "end": 0.62
+    },
+    {
+      "text": "what",
+      "start": 0.62,
+      "end": 0.78
+    },
+    {
+      "text": "the",
+      "start": 0.78,
+      "end": 0.94
+    },
+    {
+      "text": "member",
+      "start": 0.94,
+      "end": 1.1
+    },
+    {
+      "text": "sees.",
+      "start": 1.1,
+      "end": 1.5
+    },
+    {
+      "text": "But",
+      "start": 2.36,
+      "end": 2.36
+    },
+    {
+      "text": "what",
+      "start": 2.36,
+      "end": 2.58
+    },
+    {
+      "text": "has",
+      "start": 2.58,
+      "end": 2.76
+    },
+    {
+      "text": "to",
+      "start": 2.76,
+      "end": 2.9
+    },
+    {
+      "text": "happen",
+      "start": 2.9,
+      "end": 3.2
+    },
+    {
+      "text": "between",
+      "start": 3.2,
+      "end": 3.44
+    },
+    {
+      "text": "clicking",
+      "start": 3.44,
+      "end": 3.88
+    },
+    {
+      "text": "Confirm",
+      "start": 3.88,
+      "end": 4.58
+    },
+    {
+      "text": "and",
+      "start": 4.58,
+      "end": 4.96
+    },
+    {
+      "text": "showing",
+      "start": 4.96,
+      "end": 5.22
+    },
+    {
+      "text": "this",
+      "start": 5.22,
+      "end": 5.52
+    },
+    {
+      "text": "result?",
+      "start": 5.52,
+      "end": 5.8
+    },
+    {
+      "text": "The",
+      "start": 6.7,
+      "end": 6.74
+    },
+    {
+      "text": "important",
+      "start": 6.74,
+      "end": 7.0
+    },
+    {
+      "text": "thing",
+      "start": 7.0,
+      "end": 7.46
+    },
+    {
+      "text": "is",
+      "start": 7.46,
+      "end": 7.74
+    },
+    {
+      "text": "that",
+      "start": 7.74,
+      "end": 7.9
+    },
+    {
+      "text": "the",
+      "start": 7.9,
+      "end": 8.04
+    },
+    {
+      "text": "booking",
+      "start": 8.04,
+      "end": 8.26
+    },
+    {
+      "text": "service,",
+      "start": 8.26,
+      "end": 8.66
+    },
+    {
+      "text": "rather",
+      "start": 8.66,
+      "end": 9.34
+    },
+    {
+      "text": "than",
+      "start": 9.34,
+      "end": 9.62
+    },
+    {
+      "text": "the",
+      "start": 9.62,
+      "end": 9.72
+    },
+    {
+      "text": "browser,",
+      "start": 9.72,
+      "end": 10.02
+    },
+    {
+      "text": "makes",
+      "start": 10.5,
+      "end": 10.72
+    },
+    {
+      "text": "the",
+      "start": 10.72,
+      "end": 10.92
+    },
+    {
+      "text": "final",
+      "start": 10.92,
+      "end": 11.18
+    },
+    {
+      "text": "decision",
+      "start": 11.18,
+      "end": 11.64
+    },
+    {
+      "text": "about",
+      "start": 11.64,
+      "end": 12.1
+    },
+    {
+      "text": "access,",
+      "start": 12.1,
+      "end": 12.56
+    },
+    {
+      "text": "slot",
+      "start": 13.1,
+      "end": 13.26
+    },
+    {
+      "text": "availability,",
+      "start": 13.26,
+      "end": 13.56
+    },
+    {
+      "text": "and",
+      "start": 13.56,
+      "end": 14.38
+    },
+    {
+      "text": "points.",
+      "start": 14.38,
+      "end": 14.6
+    }
+  ],
+  "06-architecture": [
+    {
+      "text": "The",
+      "start": 0.0,
+      "end": 0.14
+    },
+    {
+      "text": "interface",
+      "start": 0.14,
+      "end": 0.56
+    },
+    {
+      "text": "is",
+      "start": 0.56,
+      "end": 0.94
+    },
+    {
+      "text": "a",
+      "start": 0.94,
+      "end": 1.06
+    },
+    {
+      "text": "Next.js",
+      "start": 1.06,
+      "end": 1.56
+    },
+    {
+      "text": "application.",
+      "start": 1.56,
+      "end": 1.94
+    },
+    {
+      "text": "The",
+      "start": 2.86,
+      "end": 2.94
+    },
+    {
+      "text": "backend",
+      "start": 2.94,
+      "end": 3.2
+    },
+    {
+      "text": "is",
+      "start": 3.2,
+      "end": 3.6
+    },
+    {
+      "text": "split",
+      "start": 3.6,
+      "end": 3.84
+    },
+    {
+      "text": "into",
+      "start": 3.84,
+      "end": 4.12
+    },
+    {
+      "text": "four",
+      "start": 4.12,
+      "end": 4.48
+    },
+    {
+      "text": "NestJS",
+      "start": 4.48,
+      "end": 5.12
+    },
+    {
+      "text": "services:",
+      "start": 5.12,
+      "end": 5.52
+    },
+    {
+      "text": "Identity,",
+      "start": 6.12,
+      "end": 6.52
+    },
+    {
+      "text": "Resource,",
+      "start": 7.12,
+      "end": 7.5
+    },
+    {
+      "text": "Booking,",
+      "start": 8.02,
+      "end": 8.18
+    },
+    {
+      "text": "and",
+      "start": 8.7,
+      "end": 8.76
+    },
+    {
+      "text": "Notification.",
+      "start": 8.76,
+      "end": 9.06
+    },
+    {
+      "text": "There",
+      "start": 10.02,
+      "end": 10.1
+    },
+    {
+      "text": "is",
+      "start": 10.1,
+      "end": 10.2
+    },
+    {
+      "text": "no",
+      "start": 10.2,
+      "end": 10.44
+    },
+    {
+      "text": "separate",
+      "start": 10.44,
+      "end": 10.9
+    },
+    {
+      "text": "Points",
+      "start": 10.9,
+      "end": 11.2
+    },
+    {
+      "text": "service",
+      "start": 11.2,
+      "end": 11.64
+    },
+    {
+      "text": "in",
+      "start": 11.64,
+      "end": 11.94
+    },
+    {
+      "text": "this",
+      "start": 11.94,
+      "end": 12.1
+    },
+    {
+      "text": "repository.",
+      "start": 12.1,
+      "end": 12.36
+    },
+    {
+      "text": "Points",
+      "start": 12.36,
+      "end": 13.149999999999999
+    },
+    {
+      "text": "logic",
+      "start": 13.149999999999999,
+      "end": 13.94
+    },
+    {
+      "text": "lives",
+      "start": 13.94,
+      "end": 14.16
+    },
+    {
+      "text": "in",
+      "start": 14.16,
+      "end": 14.46
+    },
+    {
+      "text": "Booking",
+      "start": 14.46,
+      "end": 14.7
+    },
+    {
+      "text": "Service.",
+      "start": 14.7,
+      "end": 15.1
+    },
+    {
+      "text": "Public",
+      "start": 15.84,
+      "end": 16.1
+    },
+    {
+      "text": "API",
+      "start": 16.1,
+      "end": 16.52
+    },
+    {
+      "text": "requests",
+      "start": 16.52,
+      "end": 16.92
+    },
+    {
+      "text": "first",
+      "start": 16.92,
+      "end": 17.5
+    },
+    {
+      "text": "meet",
+      "start": 17.5,
+      "end": 17.84
+    },
+    {
+      "text": "Caddy,",
+      "start": 17.84,
+      "end": 18.24
+    },
+    {
+      "text": "which",
+      "start": 18.64,
+      "end": 18.72
+    },
+    {
+      "text": "routes",
+      "start": 18.72,
+      "end": 18.9
+    },
+    {
+      "text": "each",
+      "start": 18.9,
+      "end": 19.4
+    },
+    {
+      "text": "path",
+      "start": 19.4,
+      "end": 19.68
+    },
+    {
+      "text": "to",
+      "start": 19.68,
+      "end": 19.98
+    },
+    {
+      "text": "the",
+      "start": 19.98,
+      "end": 20.1
+    },
+    {
+      "text": "appropriate",
+      "start": 20.1,
+      "end": 20.44
+    },
+    {
+      "text": "private",
+      "start": 20.44,
+      "end": 20.9
+    },
+    {
+      "text": "service.",
+      "start": 20.9,
+      "end": 21.38
+    },
+    {
+      "text": "Identity",
+      "start": 22.14,
+      "end": 22.56
+    },
+    {
+      "text": "handles",
+      "start": 22.56,
+      "end": 23.0
+    },
+    {
+      "text": "accounts",
+      "start": 23.0,
+      "end": 23.32
+    },
+    {
+      "text": "and",
+      "start": 23.32,
+      "end": 23.84
+    },
+    {
+      "text": "authentication.",
+      "start": 23.84,
+      "end": 24.24
+    },
+    {
+      "text": "Resource",
+      "start": 25.22,
+      "end": 25.4
+    },
+    {
+      "text": "handles",
+      "start": 25.4,
+      "end": 25.88
+    },
+    {
+      "text": "organizations,",
+      "start": 25.88,
+      "end": 26.32
+    },
+    {
+      "text": "memberships,",
+      "start": 27.14,
+      "end": 27.6
+    },
+    {
+      "text": "and",
+      "start": 27.92,
+      "end": 27.98
+    },
+    {
+      "text": "the",
+      "start": 27.98,
+      "end": 28.1
+    },
+    {
+      "text": "resource",
+      "start": 28.1,
+      "end": 28.34
+    },
+    {
+      "text": "catalogue.",
+      "start": 28.34,
+      "end": 28.7
+    },
+    {
+      "text": "Booking",
+      "start": 28.7,
+      "end": 29.84
+    },
+    {
+      "text": "owns",
+      "start": 29.84,
+      "end": 30.08
+    },
+    {
+      "text": "slots,",
+      "start": 30.08,
+      "end": 30.5
+    },
+    {
+      "text": "reservations,",
+      "start": 30.96,
+      "end": 31.14
+    },
+    {
+      "text": "points,",
+      "start": 31.88,
+      "end": 32.08
+    },
+    {
+      "text": "disputes,",
+      "start": 32.58,
+      "end": 32.86
+    },
+    {
+      "text": "and",
+      "start": 33.3,
+      "end": 33.34
+    },
+    {
+      "text": "analytics.",
+      "start": 33.34,
+      "end": 33.7
+    },
+    {
+      "text": "Notification",
+      "start": 34.44,
+      "end": 34.96
+    },
+    {
+      "text": "processes",
+      "start": 34.96,
+      "end": 35.66
+    },
+    {
+      "text": "messages",
+      "start": 35.66,
+      "end": 36.1
+    },
+    {
+      "text": "and",
+      "start": 36.1,
+      "end": 36.6
+    },
+    {
+      "text": "realtime",
+      "start": 36.6,
+      "end": 37.08
+    },
+    {
+      "text": "events.",
+      "start": 37.08,
+      "end": 37.4
+    },
+    {
+      "text": "The",
+      "start": 38.22,
+      "end": 38.22
+    },
+    {
+      "text": "services",
+      "start": 38.22,
+      "end": 38.52
+    },
+    {
+      "text": "use",
+      "start": 38.52,
+      "end": 38.94
+    },
+    {
+      "text": "Prisma",
+      "start": 38.94,
+      "end": 39.52
+    },
+    {
+      "text": "with",
+      "start": 39.52,
+      "end": 39.74
+    },
+    {
+      "text": "PostgreSQL.",
+      "start": 39.74,
+      "end": 40.2
+    },
+    {
+      "text": "The",
+      "start": 41.02,
+      "end": 41.04
+    },
+    {
+      "text": "configured",
+      "start": 41.04,
+      "end": 41.34
+    },
+    {
+      "text": "production",
+      "start": 41.34,
+      "end": 41.64
+    },
+    {
+      "text": "database",
+      "start": 41.64,
+      "end": 42.26
+    },
+    {
+      "text": "is",
+      "start": 42.26,
+      "end": 42.68
+    },
+    {
+      "text": "hosted",
+      "start": 42.68,
+      "end": 42.92
+    },
+    {
+      "text": "by",
+      "start": 42.92,
+      "end": 43.3
+    },
+    {
+      "text": "Neon.",
+      "start": 43.3,
+      "end": 43.46
+    },
+    {
+      "text": "Kafka,",
+      "start": 44.52,
+      "end": 44.52
+    },
+    {
+      "text": "configured",
+      "start": 44.84,
+      "end": 45.16
+    },
+    {
+      "text": "through",
+      "start": 45.16,
+      "end": 45.52
+    },
+    {
+      "text": "Aiven,",
+      "start": 45.52,
+      "end": 45.86
+    },
+    {
+      "text": "carries",
+      "start": 46.26,
+      "end": 46.44
+    },
+    {
+      "text": "notification",
+      "start": 46.44,
+      "end": 46.76
+    },
+    {
+      "text": "related",
+      "start": 46.76,
+      "end": 47.48
+    },
+    {
+      "text": "events.",
+      "start": 47.48,
+      "end": 47.98
+    },
+    {
+      "text": "This",
+      "start": 48.68,
+      "end": 48.92
+    },
+    {
+      "text": "diagram",
+      "start": 48.92,
+      "end": 49.2
+    },
+    {
+      "text": "shows",
+      "start": 49.2,
+      "end": 49.66
+    },
+    {
+      "text": "logical",
+      "start": 49.66,
+      "end": 50.02
+    },
+    {
+      "text": "responsibilities",
+      "start": 50.02,
+      "end": 50.8
+    },
+    {
+      "text": "and",
+      "start": 50.8,
+      "end": 51.46
+    },
+    {
+      "text": "the",
+      "start": 51.46,
+      "end": 51.58
+    },
+    {
+      "text": "actual",
+      "start": 51.58,
+      "end": 51.94
+    },
+    {
+      "text": "configured",
+      "start": 51.94,
+      "end": 52.36
+    },
+    {
+      "text": "connections;",
+      "start": 52.36,
+      "end": 52.82
+    },
+    {
+      "text": "the",
+      "start": 53.7,
+      "end": 53.74
+    },
+    {
+      "text": "four",
+      "start": 53.74,
+      "end": 53.94
+    },
+    {
+      "text": "service",
+      "start": 53.94,
+      "end": 54.34
+    },
+    {
+      "text": "boxes",
+      "start": 54.34,
+      "end": 54.58
+    },
+    {
+      "text": "do",
+      "start": 54.58,
+      "end": 55.0
+    },
+    {
+      "text": "not",
+      "start": 55.0,
+      "end": 55.3
+    },
+    {
+      "text": "mean",
+      "start": 55.3,
+      "end": 55.58
+    },
+    {
+      "text": "four",
+      "start": 55.58,
+      "end": 55.9
+    },
+    {
+      "text": "separate",
+      "start": 55.9,
+      "end": 56.2
+    },
+    {
+      "text": "machines.",
+      "start": 56.2,
+      "end": 56.48
+    }
+  ],
+  "07-booking-request": [
+    {
+      "text": "Now",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "text": "follow",
+      "start": 0.16,
+      "end": 0.5
+    },
+    {
+      "text": "the",
+      "start": 0.5,
+      "end": 0.7
+    },
+    {
+      "text": "selected",
+      "start": 0.7,
+      "end": 1.02
+    },
+    {
+      "text": "slot.",
+      "start": 1.02,
+      "end": 1.34
+    },
+    {
+      "text": "The",
+      "start": 2.06,
+      "end": 2.16
+    },
+    {
+      "text": "browser",
+      "start": 2.16,
+      "end": 2.38
+    },
+    {
+      "text": "posts",
+      "start": 2.38,
+      "end": 2.76
+    },
+    {
+      "text": "it",
+      "start": 2.76,
+      "end": 3.08
+    },
+    {
+      "text": "to",
+      "start": 3.08,
+      "end": 3.26
+    },
+    {
+      "text": "the",
+      "start": 3.26,
+      "end": 3.34
+    },
+    {
+      "text": "bookings",
+      "start": 3.34,
+      "end": 3.78
+    },
+    {
+      "text": "endpoint.",
+      "start": 3.78,
+      "end": 3.96
+    },
+    {
+      "text": "Caddy",
+      "start": 4.7,
+      "end": 4.94
+    },
+    {
+      "text": "sends",
+      "start": 4.94,
+      "end": 5.2
+    },
+    {
+      "text": "that",
+      "start": 5.2,
+      "end": 5.5
+    },
+    {
+      "text": "path",
+      "start": 5.5,
+      "end": 5.76
+    },
+    {
+      "text": "to",
+      "start": 5.76,
+      "end": 6.04
+    },
+    {
+      "text": "Booking",
+      "start": 6.04,
+      "end": 6.24
+    },
+    {
+      "text": "Service,",
+      "start": 6.24,
+      "end": 6.62
+    },
+    {
+      "text": "where",
+      "start": 7.06,
+      "end": 7.2
+    },
+    {
+      "text": "a",
+      "start": 7.2,
+      "end": 7.3
+    },
+    {
+      "text": "guard",
+      "start": 7.3,
+      "end": 7.48
+    },
+    {
+      "text": "requires",
+      "start": 7.48,
+      "end": 7.98
+    },
+    {
+      "text": "an",
+      "start": 7.98,
+      "end": 8.2
+    },
+    {
+      "text": "authenticated",
+      "start": 8.2,
+      "end": 8.58
+    },
+    {
+      "text": "user.",
+      "start": 8.58,
+      "end": 9.22
+    },
+    {
+      "text": "The",
+      "start": 9.84,
+      "end": 9.92
+    },
+    {
+      "text": "service",
+      "start": 9.92,
+      "end": 10.22
+    },
+    {
+      "text": "checks",
+      "start": 10.22,
+      "end": 10.52
+    },
+    {
+      "text": "the",
+      "start": 10.52,
+      "end": 10.74
+    },
+    {
+      "text": "member's",
+      "start": 10.74,
+      "end": 11.16
+    },
+    {
+      "text": "tenant",
+      "start": 11.16,
+      "end": 11.34
+    },
+    {
+      "text": "context,",
+      "start": 11.34,
+      "end": 11.8
+    },
+    {
+      "text": "finds",
+      "start": 12.28,
+      "end": 12.56
+    },
+    {
+      "text": "the",
+      "start": 12.56,
+      "end": 12.8
+    },
+    {
+      "text": "slot,",
+      "start": 12.8,
+      "end": 13.06
+    },
+    {
+      "text": "and",
+      "start": 13.52,
+      "end": 13.6
+    },
+    {
+      "text": "checks",
+      "start": 13.6,
+      "end": 13.84
+    },
+    {
+      "text": "that",
+      "start": 13.84,
+      "end": 14.1
+    },
+    {
+      "text": "its",
+      "start": 14.1,
+      "end": 14.22
+    },
+    {
+      "text": "resource",
+      "start": 14.22,
+      "end": 14.54
+    },
+    {
+      "text": "is",
+      "start": 14.54,
+      "end": 14.84
+    },
+    {
+      "text": "active",
+      "start": 14.84,
+      "end": 15.24
+    },
+    {
+      "text": "and",
+      "start": 15.24,
+      "end": 15.56
+    },
+    {
+      "text": "accessible.",
+      "start": 15.56,
+      "end": 15.9
+    },
+    {
+      "text": "It",
+      "start": 16.7,
+      "end": 16.8
+    },
+    {
+      "text": "rejects",
+      "start": 16.8,
+      "end": 17.02
+    },
+    {
+      "text": "a",
+      "start": 17.02,
+      "end": 17.26
+    },
+    {
+      "text": "slot",
+      "start": 17.26,
+      "end": 17.5
+    },
+    {
+      "text": "that",
+      "start": 17.5,
+      "end": 17.74
+    },
+    {
+      "text": "has",
+      "start": 17.74,
+      "end": 17.88
+    },
+    {
+      "text": "already",
+      "start": 17.88,
+      "end": 18.22
+    },
+    {
+      "text": "started",
+      "start": 18.22,
+      "end": 18.72
+    },
+    {
+      "text": "or",
+      "start": 18.72,
+      "end": 19.16
+    },
+    {
+      "text": "has",
+      "start": 19.16,
+      "end": 19.38
+    },
+    {
+      "text": "an",
+      "start": 19.38,
+      "end": 19.48
+    },
+    {
+      "text": "existing",
+      "start": 19.48,
+      "end": 19.76
+    },
+    {
+      "text": "booking.",
+      "start": 19.76,
+      "end": 20.12
+    },
+    {
+      "text": "If",
+      "start": 20.72,
+      "end": 20.94
+    },
+    {
+      "text": "the",
+      "start": 20.94,
+      "end": 21.06
+    },
+    {
+      "text": "resource",
+      "start": 21.06,
+      "end": 21.28
+    },
+    {
+      "text": "has",
+      "start": 21.28,
+      "end": 21.6
+    },
+    {
+      "text": "a",
+      "start": 21.6,
+      "end": 21.7
+    },
+    {
+      "text": "point",
+      "start": 21.7,
+      "end": 21.96
+    },
+    {
+      "text": "cost,",
+      "start": 21.96,
+      "end": 22.22
+    },
+    {
+      "text": "it",
+      "start": 22.68,
+      "end": 22.76
+    },
+    {
+      "text": "also",
+      "start": 22.76,
+      "end": 22.94
+    },
+    {
+      "text": "checks",
+      "start": 22.94,
+      "end": 23.32
+    },
+    {
+      "text": "the",
+      "start": 23.32,
+      "end": 23.52
+    },
+    {
+      "text": "member's",
+      "start": 23.52,
+      "end": 23.9
+    },
+    {
+      "text": "balance.",
+      "start": 23.9,
+      "end": 24.18
+    },
+    {
+      "text": "The",
+      "start": 24.88,
+      "end": 25.04
+    },
+    {
+      "text": "booking",
+      "start": 25.04,
+      "end": 25.3
+    },
+    {
+      "text": "record",
+      "start": 25.3,
+      "end": 25.52
+    },
+    {
+      "text": "and",
+      "start": 25.52,
+      "end": 25.96
+    },
+    {
+      "text": "any",
+      "start": 25.96,
+      "end": 26.22
+    },
+    {
+      "text": "point",
+      "start": 26.22,
+      "end": 26.56
+    },
+    {
+      "text": "deduction",
+      "start": 26.56,
+      "end": 26.78
+    },
+    {
+      "text": "are",
+      "start": 26.78,
+      "end": 27.3
+    },
+    {
+      "text": "written",
+      "start": 27.3,
+      "end": 27.5
+    },
+    {
+      "text": "within",
+      "start": 27.5,
+      "end": 27.84
+    },
+    {
+      "text": "one",
+      "start": 27.84,
+      "end": 28.16
+    },
+    {
+      "text": "serializable",
+      "start": 28.16,
+      "end": 28.98
+    },
+    {
+      "text": "database",
+      "start": 28.98,
+      "end": 29.34
+    },
+    {
+      "text": "transaction.",
+      "start": 29.34,
+      "end": 29.82
+    },
+    {
+      "text": "That",
+      "start": 29.82,
+      "end": 30.78
+    },
+    {
+      "text": "means",
+      "start": 30.78,
+      "end": 31.06
+    },
+    {
+      "text": "the",
+      "start": 31.06,
+      "end": 31.36
+    },
+    {
+      "text": "reservation",
+      "start": 31.36,
+      "end": 31.78
+    },
+    {
+      "text": "and",
+      "start": 31.78,
+      "end": 32.22
+    },
+    {
+      "text": "its",
+      "start": 32.22,
+      "end": 32.38
+    },
+    {
+      "text": "point",
+      "start": 32.38,
+      "end": 32.62
+    },
+    {
+      "text": "entry",
+      "start": 32.62,
+      "end": 32.98
+    },
+    {
+      "text": "succeed",
+      "start": 32.98,
+      "end": 33.34
+    },
+    {
+      "text": "together",
+      "start": 33.34,
+      "end": 34.0
+    },
+    {
+      "text": "or",
+      "start": 34.0,
+      "end": 34.36
+    },
+    {
+      "text": "fail",
+      "start": 34.36,
+      "end": 34.62
+    },
+    {
+      "text": "together.",
+      "start": 34.62,
+      "end": 34.92
+    },
+    {
+      "text": "The",
+      "start": 35.58,
+      "end": 35.66
+    },
+    {
+      "text": "database",
+      "start": 35.66,
+      "end": 35.9
+    },
+    {
+      "text": "also",
+      "start": 35.9,
+      "end": 36.38
+    },
+    {
+      "text": "has",
+      "start": 36.38,
+      "end": 36.68
+    },
+    {
+      "text": "a",
+      "start": 36.68,
+      "end": 36.76
+    },
+    {
+      "text": "constraint",
+      "start": 36.76,
+      "end": 37.1
+    },
+    {
+      "text": "allowing",
+      "start": 37.1,
+      "end": 37.58
+    },
+    {
+      "text": "only",
+      "start": 37.58,
+      "end": 38.1
+    },
+    {
+      "text": "one",
+      "start": 38.1,
+      "end": 38.4
+    },
+    {
+      "text": "active",
+      "start": 38.4,
+      "end": 38.84
+    },
+    {
+      "text": "booking",
+      "start": 38.84,
+      "end": 39.12
+    },
+    {
+      "text": "per",
+      "start": 39.12,
+      "end": 39.5
+    },
+    {
+      "text": "slot.",
+      "start": 39.5,
+      "end": 39.78
+    },
+    {
+      "text": "A",
+      "start": 40.42,
+      "end": 40.5
+    },
+    {
+      "text": "concurrency",
+      "start": 40.5,
+      "end": 40.98
+    },
+    {
+      "text": "test",
+      "start": 40.98,
+      "end": 41.34
+    },
+    {
+      "text": "sends",
+      "start": 41.34,
+      "end": 41.7
+    },
+    {
+      "text": "two",
+      "start": 41.7,
+      "end": 42.04
+    },
+    {
+      "text": "requests",
+      "start": 42.04,
+      "end": 42.38
+    },
+    {
+      "text": "for",
+      "start": 42.38,
+      "end": 42.76
+    },
+    {
+      "text": "the",
+      "start": 42.76,
+      "end": 42.86
+    },
+    {
+      "text": "same",
+      "start": 42.86,
+      "end": 43.1
+    },
+    {
+      "text": "slot",
+      "start": 43.1,
+      "end": 43.44
+    },
+    {
+      "text": "and",
+      "start": 43.44,
+      "end": 43.84
+    },
+    {
+      "text": "expects",
+      "start": 43.84,
+      "end": 44.1
+    },
+    {
+      "text": "exactly",
+      "start": 44.1,
+      "end": 44.74
+    },
+    {
+      "text": "one",
+      "start": 44.74,
+      "end": 45.2
+    },
+    {
+      "text": "to",
+      "start": 45.2,
+      "end": 45.38
+    },
+    {
+      "text": "succeed.",
+      "start": 45.38,
+      "end": 45.68
+    },
+    {
+      "text": "After",
+      "start": 46.34,
+      "end": 46.62
+    },
+    {
+      "text": "the",
+      "start": 46.62,
+      "end": 46.78
+    },
+    {
+      "text": "transaction",
+      "start": 46.78,
+      "end": 47.14
+    },
+    {
+      "text": "commits,",
+      "start": 47.14,
+      "end": 47.64
+    },
+    {
+      "text": "Booking",
+      "start": 48.12,
+      "end": 48.38
+    },
+    {
+      "text": "Service",
+      "start": 48.38,
+      "end": 48.68
+    },
+    {
+      "text": "attempts",
+      "start": 48.68,
+      "end": 49.08
+    },
+    {
+      "text": "to",
+      "start": 49.08,
+      "end": 49.38
+    },
+    {
+      "text": "publish",
+      "start": 49.38,
+      "end": 49.62
+    },
+    {
+      "text": "booking",
+      "start": 49.62,
+      "end": 50.1
+    },
+    {
+      "text": "notifications.",
+      "start": 50.1,
+      "end": 50.66
+    },
+    {
+      "text": "Notification",
+      "start": 51.28,
+      "end": 51.68
+    },
+    {
+      "text": "Service",
+      "start": 51.68,
+      "end": 52.36
+    },
+    {
+      "text": "can",
+      "start": 52.36,
+      "end": 52.68
+    },
+    {
+      "text": "turn",
+      "start": 52.68,
+      "end": 52.94
+    },
+    {
+      "text": "the",
+      "start": 52.94,
+      "end": 53.12
+    },
+    {
+      "text": "booking",
+      "start": 53.12,
+      "end": 53.32
+    },
+    {
+      "text": "event",
+      "start": 53.32,
+      "end": 53.6
+    },
+    {
+      "text": "into",
+      "start": 53.6,
+      "end": 54.04
+    },
+    {
+      "text": "an",
+      "start": 54.04,
+      "end": 54.18
+    },
+    {
+      "text": "in-app",
+      "start": 54.18,
+      "end": 54.6
+    },
+    {
+      "text": "or",
+      "start": 54.6,
+      "end": 54.82
+    },
+    {
+      "text": "push",
+      "start": 54.82,
+      "end": 55.06
+    },
+    {
+      "text": "notification",
+      "start": 55.06,
+      "end": 55.3
+    },
+    {
+      "text": "and",
+      "start": 55.3,
+      "end": 56.2
+    },
+    {
+      "text": "emit",
+      "start": 56.2,
+      "end": 56.42
+    },
+    {
+      "text": "a",
+      "start": 56.42,
+      "end": 56.68
+    },
+    {
+      "text": "realtime",
+      "start": 56.68,
+      "end": 57.16
+    },
+    {
+      "text": "update.",
+      "start": 57.16,
+      "end": 57.44
+    },
+    {
+      "text": "This",
+      "start": 58.08,
+      "end": 58.24
+    },
+    {
+      "text": "part",
+      "start": 58.24,
+      "end": 58.52
+    },
+    {
+      "text": "is",
+      "start": 58.52,
+      "end": 58.74
+    },
+    {
+      "text": "separate",
+      "start": 58.74,
+      "end": 59.08
+    },
+    {
+      "text": "from",
+      "start": 59.08,
+      "end": 59.38
+    },
+    {
+      "text": "the",
+      "start": 59.38,
+      "end": 59.5
+    },
+    {
+      "text": "atomic",
+      "start": 59.5,
+      "end": 59.62
+    },
+    {
+      "text": "database",
+      "start": 59.62,
+      "end": 60.16
+    },
+    {
+      "text": "write,",
+      "start": 60.16,
+      "end": 60.98
+    },
+    {
+      "text": "so",
+      "start": 60.98,
+      "end": 61.04
+    },
+    {
+      "text": "we",
+      "start": 61.04,
+      "end": 61.04
+    },
+    {
+      "text": "should",
+      "start": 61.04,
+      "end": 61.04
+    },
+    {
+      "text": "not",
+      "start": 61.04,
+      "end": 61.04
+    },
+    {
+      "text": "describe",
+      "start": 61.04,
+      "end": 61.04
+    },
+    {
+      "text": "notification",
+      "start": 61.04,
+      "end": 61.34
+    },
+    {
+      "text": "delivery",
+      "start": 61.34,
+      "end": 61.9
+    },
+    {
+      "text": "as",
+      "start": 61.9,
+      "end": 62.6
+    },
+    {
+      "text": "part",
+      "start": 62.6,
+      "end": 62.9
+    },
+    {
+      "text": "of",
+      "start": 62.9,
+      "end": 63.04
+    },
+    {
+      "text": "the",
+      "start": 63.04,
+      "end": 63.14
+    },
+    {
+      "text": "booking",
+      "start": 63.14,
+      "end": 63.34
+    },
+    {
+      "text": "transaction.",
+      "start": 63.34,
+      "end": 63.7
+    }
+  ],
+  "08-deployment": [
+    {
+      "text": "In",
+      "start": 0.0,
+      "end": 0.14
+    },
+    {
+      "text": "the",
+      "start": 0.14,
+      "end": 0.26
+    },
+    {
+      "text": "configured",
+      "start": 0.26,
+      "end": 0.68
+    },
+    {
+      "text": "production",
+      "start": 0.68,
+      "end": 0.9
+    },
+    {
+      "text": "setup,",
+      "start": 0.9,
+      "end": 1.48
+    },
+    {
+      "text": "the",
+      "start": 2.02,
+      "end": 2.04
+    },
+    {
+      "text": "Next.js",
+      "start": 2.04,
+      "end": 2.5
+    },
+    {
+      "text": "frontend",
+      "start": 2.5,
+      "end": 3.14
+    },
+    {
+      "text": "is",
+      "start": 3.14,
+      "end": 3.38
+    },
+    {
+      "text": "on",
+      "start": 3.38,
+      "end": 3.52
+    },
+    {
+      "text": "Vercel.",
+      "start": 3.52,
+      "end": 3.96
+    },
+    {
+      "text": "Caddy",
+      "start": 4.62,
+      "end": 4.9
+    },
+    {
+      "text": "and",
+      "start": 4.9,
+      "end": 5.16
+    },
+    {
+      "text": "the",
+      "start": 5.16,
+      "end": 5.28
+    },
+    {
+      "text": "four",
+      "start": 5.28,
+      "end": 5.48
+    },
+    {
+      "text": "backend",
+      "start": 5.48,
+      "end": 5.76
+    },
+    {
+      "text": "services",
+      "start": 5.76,
+      "end": 6.24
+    },
+    {
+      "text": "run",
+      "start": 6.24,
+      "end": 6.66
+    },
+    {
+      "text": "as",
+      "start": 6.66,
+      "end": 6.82
+    },
+    {
+      "text": "containers",
+      "start": 6.82,
+      "end": 7.12
+    },
+    {
+      "text": "on",
+      "start": 7.12,
+      "end": 7.7
+    },
+    {
+      "text": "one",
+      "start": 7.7,
+      "end": 8.0
+    },
+    {
+      "text": "Linode",
+      "start": 8.0,
+      "end": 8.44
+    },
+    {
+      "text": "virtual",
+      "start": 8.44,
+      "end": 8.68
+    },
+    {
+      "text": "machine.",
+      "start": 8.68,
+      "end": 9.1
+    },
+    {
+      "text": "Only",
+      "start": 10.08,
+      "end": 10.08
+    },
+    {
+      "text": "Caddy",
+      "start": 10.08,
+      "end": 10.5
+    },
+    {
+      "text": "exposes",
+      "start": 10.5,
+      "end": 10.94
+    },
+    {
+      "text": "the",
+      "start": 10.94,
+      "end": 11.26
+    },
+    {
+      "text": "public",
+      "start": 11.26,
+      "end": 11.52
+    },
+    {
+      "text": "backend",
+      "start": 11.52,
+      "end": 11.86
+    },
+    {
+      "text": "ports;",
+      "start": 11.86,
+      "end": 12.2
+    },
+    {
+      "text": "it",
+      "start": 12.8,
+      "end": 12.92
+    },
+    {
+      "text": "forwards",
+      "start": 12.92,
+      "end": 13.18
+    },
+    {
+      "text": "traffic",
+      "start": 13.18,
+      "end": 13.56
+    },
+    {
+      "text": "to",
+      "start": 13.56,
+      "end": 13.88
+    },
+    {
+      "text": "the",
+      "start": 13.88,
+      "end": 13.98
+    },
+    {
+      "text": "services",
+      "start": 13.98,
+      "end": 14.34
+    },
+    {
+      "text": "on",
+      "start": 14.34,
+      "end": 14.74
+    },
+    {
+      "text": "the",
+      "start": 14.74,
+      "end": 14.86
+    },
+    {
+      "text": "private",
+      "start": 14.86,
+      "end": 15.18
+    },
+    {
+      "text": "Docker",
+      "start": 15.18,
+      "end": 15.48
+    },
+    {
+      "text": "network.",
+      "start": 15.48,
+      "end": 15.84
+    },
+    {
+      "text": "PostgreSQL",
+      "start": 16.56,
+      "end": 17.02
+    },
+    {
+      "text": "is",
+      "start": 17.02,
+      "end": 17.54
+    },
+    {
+      "text": "hosted",
+      "start": 17.54,
+      "end": 17.76
+    },
+    {
+      "text": "separately",
+      "start": 17.76,
+      "end": 18.36
+    },
+    {
+      "text": "on",
+      "start": 18.36,
+      "end": 18.76
+    },
+    {
+      "text": "Neon,",
+      "start": 18.76,
+      "end": 18.98
+    },
+    {
+      "text": "and",
+      "start": 19.56,
+      "end": 19.62
+    },
+    {
+      "text": "Kafka",
+      "start": 19.62,
+      "end": 19.88
+    },
+    {
+      "text": "is",
+      "start": 19.88,
+      "end": 20.38
+    },
+    {
+      "text": "managed",
+      "start": 20.38,
+      "end": 20.62
+    },
+    {
+      "text": "separately",
+      "start": 20.62,
+      "end": 21.1
+    },
+    {
+      "text": "on",
+      "start": 21.1,
+      "end": 21.56
+    },
+    {
+      "text": "Aiven.",
+      "start": 21.56,
+      "end": 21.9
+    },
+    {
+      "text": "The",
+      "start": 22.56,
+      "end": 22.64
+    },
+    {
+      "text": "deployment",
+      "start": 22.64,
+      "end": 22.98
+    },
+    {
+      "text": "workflow",
+      "start": 22.98,
+      "end": 23.32
+    },
+    {
+      "text": "builds",
+      "start": 23.32,
+      "end": 23.94
+    },
+    {
+      "text": "four",
+      "start": 23.94,
+      "end": 24.22
+    },
+    {
+      "text": "service",
+      "start": 24.22,
+      "end": 24.64
+    },
+    {
+      "text": "images,",
+      "start": 24.64,
+      "end": 24.94
+    },
+    {
+      "text": "publishes",
+      "start": 25.48,
+      "end": 25.72
+    },
+    {
+      "text": "them",
+      "start": 25.72,
+      "end": 26.06
+    },
+    {
+      "text": "to",
+      "start": 26.06,
+      "end": 26.24
+    },
+    {
+      "text": "GitHub",
+      "start": 26.24,
+      "end": 26.38
+    },
+    {
+      "text": "Container",
+      "start": 26.38,
+      "end": 26.86
+    },
+    {
+      "text": "Registry,",
+      "start": 26.86,
+      "end": 27.24
+    },
+    {
+      "text": "runs",
+      "start": 27.96,
+      "end": 28.22
+    },
+    {
+      "text": "Prisma",
+      "start": 28.22,
+      "end": 28.66
+    },
+    {
+      "text": "migrations,",
+      "start": 28.66,
+      "end": 29.18
+    },
+    {
+      "text": "and",
+      "start": 29.18,
+      "end": 29.62
+    },
+    {
+      "text": "updates",
+      "start": 29.62,
+      "end": 29.96
+    },
+    {
+      "text": "the",
+      "start": 29.96,
+      "end": 30.2
+    },
+    {
+      "text": "containers",
+      "start": 30.2,
+      "end": 30.52
+    },
+    {
+      "text": "on",
+      "start": 30.52,
+      "end": 30.9
+    },
+    {
+      "text": "Linode.",
+      "start": 30.9,
+      "end": 31.2
+    },
+    {
+      "text": "The",
+      "start": 31.82,
+      "end": 31.88
+    },
+    {
+      "text": "services",
+      "start": 31.88,
+      "end": 32.18
+    },
+    {
+      "text": "are",
+      "start": 32.18,
+      "end": 32.54
+    },
+    {
+      "text": "separated",
+      "start": 32.54,
+      "end": 32.9
+    },
+    {
+      "text": "in",
+      "start": 32.9,
+      "end": 33.26
+    },
+    {
+      "text": "code",
+      "start": 33.26,
+      "end": 33.56
+    },
+    {
+      "text": "and",
+      "start": 33.56,
+      "end": 33.86
+    },
+    {
+      "text": "containers,",
+      "start": 33.86,
+      "end": 34.28
+    },
+    {
+      "text": "while",
+      "start": 34.76,
+      "end": 34.96
+    },
+    {
+      "text": "the",
+      "start": 34.96,
+      "end": 35.1
+    },
+    {
+      "text": "current",
+      "start": 35.1,
+      "end": 35.3
+    },
+    {
+      "text": "deployment",
+      "start": 35.3,
+      "end": 35.64
+    },
+    {
+      "text": "keeps",
+      "start": 35.64,
+      "end": 36.08
+    },
+    {
+      "text": "them",
+      "start": 36.08,
+      "end": 36.32
+    },
+    {
+      "text": "together",
+      "start": 36.32,
+      "end": 36.62
+    },
+    {
+      "text": "on",
+      "start": 36.62,
+      "end": 37.04
+    },
+    {
+      "text": "one",
+      "start": 37.04,
+      "end": 37.28
+    },
+    {
+      "text": "VM.",
+      "start": 37.28,
+      "end": 37.5
+    }
+  ],
+  "09-close": [
+    {
+      "text": "ResourceHive",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "text": "connects",
+      "start": 0.66,
+      "end": 0.98
+    },
+    {
+      "text": "a",
+      "start": 0.98,
+      "end": 1.22
+    },
+    {
+      "text": "practical",
+      "start": 1.22,
+      "end": 1.62
+    },
+    {
+      "text": "member",
+      "start": 1.62,
+      "end": 1.96
+    },
+    {
+      "text": "workflow",
+      "start": 1.96,
+      "end": 2.48
+    },
+    {
+      "text": "to",
+      "start": 2.48,
+      "end": 2.9
+    },
+    {
+      "text": "explicit",
+      "start": 2.9,
+      "end": 3.38
+    },
+    {
+      "text": "backend",
+      "start": 3.38,
+      "end": 3.78
+    },
+    {
+      "text": "rules.",
+      "start": 3.78,
+      "end": 4.22
+    },
+    {
+      "text": "A",
+      "start": 5.06,
+      "end": 5.12
+    },
+    {
+      "text": "user",
+      "start": 5.12,
+      "end": 5.36
+    },
+    {
+      "text": "sees",
+      "start": 5.36,
+      "end": 5.62
+    },
+    {
+      "text": "a",
+      "start": 5.62,
+      "end": 5.8
+    },
+    {
+      "text": "straightforward",
+      "start": 5.8,
+      "end": 6.26
+    },
+    {
+      "text": "reservation,",
+      "start": 6.26,
+      "end": 6.92
+    },
+    {
+      "text": "while",
+      "start": 6.92,
+      "end": 7.68
+    },
+    {
+      "text": "the",
+      "start": 7.68,
+      "end": 7.84
+    },
+    {
+      "text": "implementation",
+      "start": 7.84,
+      "end": 8.28
+    },
+    {
+      "text": "checks",
+      "start": 8.28,
+      "end": 8.84
+    },
+    {
+      "text": "organization",
+      "start": 8.84,
+      "end": 9.54
+    },
+    {
+      "text": "access,",
+      "start": 9.54,
+      "end": 9.96
+    },
+    {
+      "text": "prevents",
+      "start": 10.38,
+      "end": 10.76
+    },
+    {
+      "text": "competing",
+      "start": 10.76,
+      "end": 11.36
+    },
+    {
+      "text": "bookings,",
+      "start": 11.36,
+      "end": 11.8
+    },
+    {
+      "text": "records",
+      "start": 12.48,
+      "end": 12.48
+    },
+    {
+      "text": "points",
+      "start": 12.48,
+      "end": 12.88
+    },
+    {
+      "text": "consistently,",
+      "start": 12.88,
+      "end": 13.38
+    },
+    {
+      "text": "and",
+      "start": 14.2,
+      "end": 14.22
+    },
+    {
+      "text": "sends",
+      "start": 14.22,
+      "end": 14.42
+    },
+    {
+      "text": "updates",
+      "start": 14.42,
+      "end": 14.9
+    },
+    {
+      "text": "through",
+      "start": 14.9,
+      "end": 15.24
+    },
+    {
+      "text": "a",
+      "start": 15.24,
+      "end": 15.34
+    },
+    {
+      "text": "separate",
+      "start": 15.34,
+      "end": 15.72
+    },
+    {
+      "text": "notification",
+      "start": 15.72,
+      "end": 15.96
+    },
+    {
+      "text": "path.",
+      "start": 15.96,
+      "end": 16.62
+    },
+    {
+      "text": "That",
+      "start": 17.38,
+      "end": 17.6
+    },
+    {
+      "text": "is",
+      "start": 17.6,
+      "end": 17.84
+    },
+    {
+      "text": "the",
+      "start": 17.84,
+      "end": 17.98
+    },
+    {
+      "text": "central",
+      "start": 17.98,
+      "end": 18.34
+    },
+    {
+      "text": "design",
+      "start": 18.34,
+      "end": 18.7
+    },
+    {
+      "text": "of",
+      "start": 18.7,
+      "end": 18.9
+    },
+    {
+      "text": "the",
+      "start": 18.9,
+      "end": 19.0
+    },
+    {
+      "text": "project:",
+      "start": 19.0,
+      "end": 19.3
+    },
+    {
+      "text": "make",
+      "start": 20.06,
+      "end": 20.08
+    },
+    {
+      "text": "shared",
+      "start": 20.08,
+      "end": 20.4
+    },
+    {
+      "text": "resources",
+      "start": 20.4,
+      "end": 21.02
+    },
+    {
+      "text": "easier",
+      "start": 21.02,
+      "end": 21.48
+    },
+    {
+      "text": "to",
+      "start": 21.48,
+      "end": 21.82
+    },
+    {
+      "text": "use,",
+      "start": 21.82,
+      "end": 22.06
+    },
+    {
+      "text": "with",
+      "start": 22.06,
+      "end": 22.62
+    },
+    {
+      "text": "booking",
+      "start": 22.62,
+      "end": 22.9
+    },
+    {
+      "text": "rules",
+      "start": 22.9,
+      "end": 23.2
+    },
+    {
+      "text": "enforced",
+      "start": 23.2,
+      "end": 23.5
+    },
+    {
+      "text": "where",
+      "start": 23.5,
+      "end": 24.16
+    },
+    {
+      "text": "they",
+      "start": 24.16,
+      "end": 24.3
+    },
+    {
+      "text": "matter.",
+      "start": 24.3,
+      "end": 24.46
+    }
+  ],
+  "10.1": [
+    {
+      "text": "Booking",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "text": "is",
+      "start": 0.38,
+      "end": 0.52
+    },
+    {
+      "text": "one",
+      "start": 0.52,
+      "end": 0.8
+    },
+    {
+      "text": "part",
+      "start": 0.8,
+      "end": 1.1
+    },
+    {
+      "text": "of",
+      "start": 1.1,
+      "end": 1.26
+    },
+    {
+      "text": "sharing",
+      "start": 1.26,
+      "end": 1.5
+    },
+    {
+      "text": "a",
+      "start": 1.5,
+      "end": 1.68
+    },
+    {
+      "text": "resource.",
+      "start": 1.68,
+      "end": 1.96
+    },
+    {
+      "text": "The",
+      "start": 2.78,
+      "end": 2.86
+    },
+    {
+      "text": "other",
+      "start": 2.86,
+      "end": 3.14
+    },
+    {
+      "text": "is",
+      "start": 3.14,
+      "end": 3.52
+    },
+    {
+      "text": "deciding",
+      "start": 3.52,
+      "end": 3.88
+    },
+    {
+      "text": "who",
+      "start": 3.88,
+      "end": 4.32
+    },
+    {
+      "text": "belongs",
+      "start": 4.32,
+      "end": 4.64
+    },
+    {
+      "text": "to",
+      "start": 4.64,
+      "end": 4.92
+    },
+    {
+      "text": "the",
+      "start": 4.92,
+      "end": 5.04
+    },
+    {
+      "text": "organization",
+      "start": 5.04,
+      "end": 5.36
+    },
+    {
+      "text": "that",
+      "start": 5.36,
+      "end": 5.94
+    },
+    {
+      "text": "owns",
+      "start": 5.94,
+      "end": 6.2
+    },
+    {
+      "text": "it.",
+      "start": 6.2,
+      "end": 6.46
+    },
+    {
+      "text": "First,",
+      "start": 7.24,
+      "end": 7.5
+    },
+    {
+      "text": "from",
+      "start": 7.68,
+      "end": 8.1
+    },
+    {
+      "text": "the",
+      "start": 8.1,
+      "end": 8.22
+    },
+    {
+      "text": "member's",
+      "start": 8.22,
+      "end": 8.64
+    },
+    {
+      "text": "account,",
+      "start": 8.64,
+      "end": 8.9
+    },
+    {
+      "text": "I",
+      "start": 9.28,
+      "end": 9.36
+    },
+    {
+      "text": "request",
+      "start": 9.36,
+      "end": 9.62
+    },
+    {
+      "text": "membership",
+      "start": 9.62,
+      "end": 10.06
+    },
+    {
+      "text": "in",
+      "start": 10.06,
+      "end": 10.48
+    },
+    {
+      "text": "the",
+      "start": 10.48,
+      "end": 10.6
+    },
+    {
+      "text": "Engineering",
+      "start": 10.6,
+      "end": 10.92
+    },
+    {
+      "text": "Faculty.",
+      "start": 10.92,
+      "end": 11.54
+    },
+    {
+      "text": "After",
+      "start": 12.28,
+      "end": 12.42
+    },
+    {
+      "text": "I",
+      "start": 12.42,
+      "end": 12.68
+    },
+    {
+      "text": "submit",
+      "start": 12.68,
+      "end": 12.94
+    },
+    {
+      "text": "the",
+      "start": 12.94,
+      "end": 13.18
+    },
+    {
+      "text": "request,",
+      "start": 13.18,
+      "end": 13.44
+    },
+    {
+      "text": "its",
+      "start": 14.0,
+      "end": 14.06
+    },
+    {
+      "text": "status",
+      "start": 14.06,
+      "end": 14.32
+    },
+    {
+      "text": "shows",
+      "start": 14.32,
+      "end": 14.76
+    },
+    {
+      "text": "as",
+      "start": 14.76,
+      "end": 15.04
+    },
+    {
+      "text": "Pending.",
+      "start": 15.04,
+      "end": 16.22
+    },
+    {
+      "text": "The",
+      "start": 16.22,
+      "end": 16.28
+    },
+    {
+      "text": "request",
+      "start": 16.28,
+      "end": 16.52
+    },
+    {
+      "text": "is",
+      "start": 16.52,
+      "end": 16.78
+    },
+    {
+      "text": "now",
+      "start": 16.78,
+      "end": 16.98
+    },
+    {
+      "text": "waiting",
+      "start": 16.98,
+      "end": 17.28
+    },
+    {
+      "text": "for",
+      "start": 17.28,
+      "end": 17.54
+    },
+    {
+      "text": "an",
+      "start": 17.54,
+      "end": 17.66
+    },
+    {
+      "text": "administrator",
+      "start": 17.66,
+      "end": 18.06
+    },
+    {
+      "text": "to",
+      "start": 18.06,
+      "end": 18.56
+    },
+    {
+      "text": "review",
+      "start": 18.56,
+      "end": 18.8
+    },
+    {
+      "text": "it.",
+      "start": 18.8,
+      "end": 19.04
+    }
+  ],
+  "10.2": [
+    {
+      "text": "Next,",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "text": "I",
+      "start": 0.3,
+      "end": 0.72
+    },
+    {
+      "text": "switch",
+      "start": 0.72,
+      "end": 0.9
+    },
+    {
+      "text": "to",
+      "start": 0.9,
+      "end": 1.16
+    },
+    {
+      "text": "the",
+      "start": 1.16,
+      "end": 1.26
+    },
+    {
+      "text": "Engineering",
+      "start": 1.26,
+      "end": 1.66
+    },
+    {
+      "text": "Faculty",
+      "start": 1.66,
+      "end": 2.12
+    },
+    {
+      "text": "administrator's",
+      "start": 2.12,
+      "end": 3.22
+    },
+    {
+      "text": "member",
+      "start": 3.22,
+      "end": 3.38
+    },
+    {
+      "text": "list.",
+      "start": 3.38,
+      "end": 3.74
+    },
+    {
+      "text": "The",
+      "start": 4.58,
+      "end": 4.6
+    },
+    {
+      "text": "same",
+      "start": 4.6,
+      "end": 4.88
+    },
+    {
+      "text": "member",
+      "start": 4.88,
+      "end": 5.32
+    },
+    {
+      "text": "appears",
+      "start": 5.32,
+      "end": 5.66
+    },
+    {
+      "text": "under",
+      "start": 5.66,
+      "end": 6.02
+    },
+    {
+      "text": "Pending",
+      "start": 6.02,
+      "end": 6.42
+    },
+    {
+      "text": "requests.",
+      "start": 6.42,
+      "end": 6.86
+    },
+    {
+      "text": "I",
+      "start": 7.84,
+      "end": 7.86
+    },
+    {
+      "text": "choose",
+      "start": 7.86,
+      "end": 8.06
+    },
+    {
+      "text": "Approve",
+      "start": 8.06,
+      "end": 8.28
+    },
+    {
+      "text": "and",
+      "start": 8.28,
+      "end": 8.96
+    },
+    {
+      "text": "confirm",
+      "start": 8.96,
+      "end": 9.2
+    },
+    {
+      "text": "the",
+      "start": 9.2,
+      "end": 9.58
+    },
+    {
+      "text": "decision.",
+      "start": 9.58,
+      "end": 9.86
+    }
+  ],
+  "10.3": [
+    {
+      "text": "Finally,",
+      "start": 0.0,
+      "end": 0.32
+    },
+    {
+      "text": "I",
+      "start": 0.62,
+      "end": 0.9
+    },
+    {
+      "text": "return",
+      "start": 0.9,
+      "end": 1.08
+    },
+    {
+      "text": "to",
+      "start": 1.08,
+      "end": 1.34
+    },
+    {
+      "text": "the",
+      "start": 1.34,
+      "end": 1.42
+    },
+    {
+      "text": "member's",
+      "start": 1.42,
+      "end": 1.7
+    },
+    {
+      "text": "account",
+      "start": 1.7,
+      "end": 2.0
+    },
+    {
+      "text": "and",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "text": "refresh",
+      "start": 2.4,
+      "end": 2.68
+    },
+    {
+      "text": "My",
+      "start": 2.68,
+      "end": 3.02
+    },
+    {
+      "text": "memberships.",
+      "start": 3.02,
+      "end": 3.5
+    },
+    {
+      "text": "The",
+      "start": 4.32,
+      "end": 4.32
+    },
+    {
+      "text": "Engineering",
+      "start": 4.32,
+      "end": 4.68
+    },
+    {
+      "text": "Faculty",
+      "start": 4.68,
+      "end": 5.16
+    },
+    {
+      "text": "status",
+      "start": 5.16,
+      "end": 5.66
+    },
+    {
+      "text": "changes",
+      "start": 5.66,
+      "end": 6.1
+    },
+    {
+      "text": "from",
+      "start": 6.1,
+      "end": 6.48
+    },
+    {
+      "text": "Pending",
+      "start": 6.48,
+      "end": 6.82
+    },
+    {
+      "text": "to",
+      "start": 6.82,
+      "end": 7.36
+    },
+    {
+      "text": "Approved.",
+      "start": 7.36,
+      "end": 7.62
+    },
+    {
+      "text": "We",
+      "start": 8.52,
+      "end": 8.58
+    },
+    {
+      "text": "have",
+      "start": 8.58,
+      "end": 8.7
+    },
+    {
+      "text": "now",
+      "start": 8.7,
+      "end": 8.9
+    },
+    {
+      "text": "seen",
+      "start": 8.9,
+      "end": 9.18
+    },
+    {
+      "text": "the",
+      "start": 9.18,
+      "end": 9.36
+    },
+    {
+      "text": "complete",
+      "start": 9.36,
+      "end": 9.76
+    },
+    {
+      "text": "membership",
+      "start": 9.76,
+      "end": 10.16
+    },
+    {
+      "text": "flow:",
+      "start": 10.16,
+      "end": 10.62
+    },
+    {
+      "text": "the",
+      "start": 11.26,
+      "end": 11.34
+    },
+    {
+      "text": "member",
+      "start": 11.34,
+      "end": 11.54
+    },
+    {
+      "text": "requests",
+      "start": 11.54,
+      "end": 11.9
+    },
+    {
+      "text": "access,",
+      "start": 11.9,
+      "end": 12.48
+    },
+    {
+      "text": "the",
+      "start": 13.04,
+      "end": 13.08
+    },
+    {
+      "text": "administrator",
+      "start": 13.08,
+      "end": 13.56
+    },
+    {
+      "text": "approves",
+      "start": 13.56,
+      "end": 13.98
+    },
+    {
+      "text": "it,",
+      "start": 13.98,
+      "end": 14.34
+    },
+    {
+      "text": "and",
+      "start": 14.34,
+      "end": 14.8
+    },
+    {
+      "text": "the",
+      "start": 14.8,
+      "end": 14.9
+    },
+    {
+      "text": "member",
+      "start": 14.9,
+      "end": 15.2
+    },
+    {
+      "text": "sees",
+      "start": 15.2,
+      "end": 15.46
+    },
+    {
+      "text": "the",
+      "start": 15.46,
+      "end": 15.72
+    },
+    {
+      "text": "updated",
+      "start": 15.72,
+      "end": 16.02
+    },
+    {
+      "text": "result.",
+      "start": 16.02,
+      "end": 16.46
+    }
+  ],
+  "10.4": [
+    {
+      "text": "The",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "text": "screen",
+      "start": 0.16,
+      "end": 0.38
+    },
+    {
+      "text": "actions",
+      "start": 0.38,
+      "end": 0.7
+    },
+    {
+      "text": "map",
+      "start": 0.7,
+      "end": 1.16
+    },
+    {
+      "text": "to",
+      "start": 1.16,
+      "end": 1.4
+    },
+    {
+      "text": "one",
+      "start": 1.4,
+      "end": 1.64
+    },
+    {
+      "text": "membership",
+      "start": 1.64,
+      "end": 2.04
+    },
+    {
+      "text": "record.",
+      "start": 2.04,
+      "end": 2.44
+    },
+    {
+      "text": "The",
+      "start": 3.16,
+      "end": 3.24
+    },
+    {
+      "text": "request",
+      "start": 3.24,
+      "end": 3.48
+    },
+    {
+      "text": "starts",
+      "start": 3.48,
+      "end": 3.92
+    },
+    {
+      "text": "as",
+      "start": 3.92,
+      "end": 4.24
+    },
+    {
+      "text": "Pending",
+      "start": 4.24,
+      "end": 4.54
+    },
+    {
+      "text": "for",
+      "start": 4.54,
+      "end": 5.0
+    },
+    {
+      "text": "this",
+      "start": 5.0,
+      "end": 5.16
+    },
+    {
+      "text": "member",
+      "start": 5.16,
+      "end": 5.58
+    },
+    {
+      "text": "and",
+      "start": 5.58,
+      "end": 5.86
+    },
+    {
+      "text": "the",
+      "start": 5.86,
+      "end": 6.0
+    },
+    {
+      "text": "Engineering",
+      "start": 6.0,
+      "end": 6.32
+    },
+    {
+      "text": "Faculty.",
+      "start": 6.32,
+      "end": 6.78
+    },
+    {
+      "text": "Before",
+      "start": 7.48,
+      "end": 7.62
+    },
+    {
+      "text": "changing",
+      "start": 7.62,
+      "end": 8.0
+    },
+    {
+      "text": "it",
+      "start": 8.0,
+      "end": 8.28
+    },
+    {
+      "text": "to",
+      "start": 8.28,
+      "end": 8.42
+    },
+    {
+      "text": "Approved,",
+      "start": 8.42,
+      "end": 8.68
+    },
+    {
+      "text": "Resource",
+      "start": 9.34,
+      "end": 9.56
+    },
+    {
+      "text": "Service",
+      "start": 9.56,
+      "end": 9.94
+    },
+    {
+      "text": "checks",
+      "start": 9.94,
+      "end": 10.4
+    },
+    {
+      "text": "that",
+      "start": 10.4,
+      "end": 10.74
+    },
+    {
+      "text": "the",
+      "start": 10.74,
+      "end": 10.84
+    },
+    {
+      "text": "administrator",
+      "start": 10.84,
+      "end": 11.22
+    },
+    {
+      "text": "has",
+      "start": 11.22,
+      "end": 11.72
+    },
+    {
+      "text": "permission",
+      "start": 11.72,
+      "end": 11.94
+    },
+    {
+      "text": "to",
+      "start": 11.94,
+      "end": 12.42
+    },
+    {
+      "text": "review",
+      "start": 12.42,
+      "end": 12.68
+    },
+    {
+      "text": "this",
+      "start": 12.68,
+      "end": 12.92
+    },
+    {
+      "text": "organization's",
+      "start": 12.92,
+      "end": 13.78
+    },
+    {
+      "text": "requests",
+      "start": 13.78,
+      "end": 14.04
+    },
+    {
+      "text": "and",
+      "start": 14.7,
+      "end": 14.82
+    },
+    {
+      "text": "that",
+      "start": 14.82,
+      "end": 15.04
+    },
+    {
+      "text": "this",
+      "start": 15.04,
+      "end": 15.22
+    },
+    {
+      "text": "request",
+      "start": 15.22,
+      "end": 15.54
+    },
+    {
+      "text": "is",
+      "start": 15.54,
+      "end": 15.86
+    },
+    {
+      "text": "still",
+      "start": 15.86,
+      "end": 16.14
+    },
+    {
+      "text": "eligible.",
+      "start": 16.14,
+      "end": 16.5
+    },
+    {
+      "text": "The",
+      "start": 17.38,
+      "end": 17.4
+    },
+    {
+      "text": "approval",
+      "start": 17.4,
+      "end": 17.64
+    },
+    {
+      "text": "and",
+      "start": 17.64,
+      "end": 18.16
+    },
+    {
+      "text": "its",
+      "start": 18.16,
+      "end": 18.32
+    },
+    {
+      "text": "audit",
+      "start": 18.32,
+      "end": 18.58
+    },
+    {
+      "text": "record",
+      "start": 18.58,
+      "end": 18.94
+    },
+    {
+      "text": "are",
+      "start": 18.94,
+      "end": 19.26
+    },
+    {
+      "text": "saved",
+      "start": 19.26,
+      "end": 19.48
+    },
+    {
+      "text": "together.",
+      "start": 19.48,
+      "end": 19.9
+    },
+    {
+      "text": "When",
+      "start": 20.62,
+      "end": 20.76
+    },
+    {
+      "text": "the",
+      "start": 20.76,
+      "end": 20.88
+    },
+    {
+      "text": "member",
+      "start": 20.88,
+      "end": 21.12
+    },
+    {
+      "text": "refreshes,",
+      "start": 21.12,
+      "end": 21.72
+    },
+    {
+      "text": "the",
+      "start": 22.12,
+      "end": 22.22
+    },
+    {
+      "text": "application",
+      "start": 22.22,
+      "end": 22.52
+    },
+    {
+      "text": "reads",
+      "start": 22.52,
+      "end": 23.0
+    },
+    {
+      "text": "the",
+      "start": 23.0,
+      "end": 23.28
+    },
+    {
+      "text": "new",
+      "start": 23.28,
+      "end": 23.42
+    },
+    {
+      "text": "status",
+      "start": 23.42,
+      "end": 23.76
+    },
+    {
+      "text": "from",
+      "start": 23.76,
+      "end": 24.12
+    },
+    {
+      "text": "that",
+      "start": 24.12,
+      "end": 24.3
+    },
+    {
+      "text": "same",
+      "start": 24.3,
+      "end": 24.6
+    },
+    {
+      "text": "membership.",
+      "start": 24.6,
+      "end": 25.02
+    },
+    {
+      "text": "One",
+      "start": 25.02,
+      "end": 25.92
+    },
+    {
+      "text": "record",
+      "start": 25.92,
+      "end": 26.26
+    },
+    {
+      "text": "carries",
+      "start": 26.26,
+      "end": 26.64
+    },
+    {
+      "text": "the",
+      "start": 26.64,
+      "end": 26.94
+    },
+    {
+      "text": "request",
+      "start": 26.94,
+      "end": 27.18
+    },
+    {
+      "text": "from",
+      "start": 27.18,
+      "end": 27.54
+    },
+    {
+      "text": "the",
+      "start": 27.54,
+      "end": 27.74
+    },
+    {
+      "text": "member,",
+      "start": 27.74,
+      "end": 28.08
+    },
+    {
+      "text": "through",
+      "start": 28.08,
+      "end": 28.56
+    },
+    {
+      "text": "the",
+      "start": 28.56,
+      "end": 28.78
+    },
+    {
+      "text": "administrator's",
+      "start": 28.78,
+      "end": 29.14
+    },
+    {
+      "text": "decision,",
+      "start": 29.14,
+      "end": 29.78
+    },
+    {
+      "text": "to",
+      "start": 29.78,
+      "end": 30.34
+    },
+    {
+      "text": "the",
+      "start": 30.34,
+      "end": 30.46
+    },
+    {
+      "text": "Approved",
+      "start": 30.46,
+      "end": 30.72
+    },
+    {
+      "text": "result.",
+      "start": 30.72,
+      "end": 31.26
+    }
+  ]
+}

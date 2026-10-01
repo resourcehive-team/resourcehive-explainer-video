@@ -1,1 +1,67 @@
-{}
+{
+  "01-intro": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 33,
+    "total_words": 33
+  },
+  "02-problem": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 58,
+    "total_words": 58
+  },
+  "03-overview": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 41,
+    "total_words": 43
+  },
+  "04-product-workflow": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 180,
+    "total_words": 184
+  },
+  "05-bridge": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 41,
+    "total_words": 41
+  },
+  "06-architecture": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 113,
+    "total_words": 118
+  },
+  "07-booking-request": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 171,
+    "total_words": 179
+  },
+  "08-deployment": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 95,
+    "total_words": 96
+  },
+  "09-close": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 57,
+    "total_words": 57
+  },
+  "10.1": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 52,
+    "total_words": 53
+  },
+  "10.2": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 24,
+    "total_words": 24
+  },
+  "10.3": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 43,
+    "total_words": 43
+  },
+  "10.4": {
+    "method": "Whisper base.en word timestamps mapped to supplied script",
+    "matched_words": 84,
+    "total_words": 84
+  }
+}
